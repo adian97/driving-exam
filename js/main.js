@@ -3,13 +3,11 @@ if (sessionStorage.getItem("loggedIn") !== "true") {
 }
 
 function goExam() {
-    sessionStorage.setItem("mode", "exam");
     window.location.href = "category.html";
 }
 
 function goPractice() {
-    sessionStorage.setItem("mode", "practice");
-    window.location.href = "category.html";
+    window.location.href = "practice.html";
 }
 
 function logout() {
