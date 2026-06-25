@@ -1,2 +1,12 @@
-
-[]
+[
+  {
+    "id": 1,
+    "question": "What should the driver do when leaving a private road?",
+    "image": "images/a/q1.jpg",
+    "optionA": "Give way to all vehicles and pedestrians.",
+    "optionB": "Move forward without giving way.",
+    "optionC": "Speed up.",
+    "optionD": "Sound the horn.",
+    "correctAnswer": "A"
+  }
+]
