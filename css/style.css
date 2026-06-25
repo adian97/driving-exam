@@ -377,7 +377,7 @@ header{
 .question-box-item.active::after{
     content:"";
     position:absolute;
-    bottom:-16px;
+    bottom:-12px;
     left:50%;
     transform:translateX(-50%);
     width:0;
@@ -385,6 +385,7 @@ header{
     border-left:10px solid transparent;
     border-right:10px solid transparent;
     border-top:14px solid #2ecc71;
+    z-index:100;
 }
 
 .nav-arrow{
