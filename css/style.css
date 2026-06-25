@@ -329,21 +329,19 @@ header{
 
 .bottom-navigation{
     background:#f5f5f5;
-    padding:18px 25px 35px 25px;
+    padding:20px;
     display:flex;
-    align-items:flex-end;
-    gap:18px;
+    align-items:flex-start;
+    gap:5px;
 }
 
 #questionNumbers{
     flex:1;
     display:flex;
-    gap:12px;
+    gap:3px;
     overflow-x:auto;
-    overflow-y:visible;
-    scrollbar-width:none;
     white-space:nowrap;
-    padding-bottom:25px;
+    padding-bottom:60px;
 }
 
 #questionNumbers::-webkit-scrollbar{
@@ -351,16 +349,20 @@ header{
 }
 
 .question-box-item{
-    width:38px;
-    min-width:38px;
-    height:65px;
-    background:#fff;
-    border:1px solid #999;
-    border-radius:0;
+    width:42px;
+    min-width:42px;
+    height:42px;
+
+    background:white;
+    border:1px solid #ddd;
+
     display:flex;
     justify-content:center;
     align-items:center;
-    font-size:16px;
+
+    font-size:14px;
+    font-weight:600;
+
     position:relative;
     cursor:pointer;
 }
@@ -374,35 +376,43 @@ header{
 .question-box-item.active::after{
     content:"";
     position:absolute;
-    bottom:-30px;
+
     left:50%;
     transform:translateX(-50%);
+
+    bottom:-55px;
 
     width:0;
     height:0;
 
-    border-left:25px solid transparent;
-    border-right:25px solid transparent;
-    border-top:35px solid #74a84c;
+    border-left:28px solid transparent;
+    border-right:28px solid transparent;
+    border-bottom:38px solid #69b52c;
 }
 
 /* PREVIOUS & NEXT */
 
 .nav-arrow{
-    width:55px;
-    height:95px;
+    width:75px;
+    height:75px;
+    background:#69b52c;
     border:none;
-    background:#74a84c;
     color:white;
-    font-size:34px;
+    font-size:38px;
     cursor:pointer;
+    flex-shrink:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .nav-arrow:first-child{
-    border-radius:30px 0 0 30px;
+    border-radius:0 40px 40px 0;
 }
+
 .nav-arrow:last-child{
-    border-radius:0 30px 30px 0;
+    border-radius:40px 0 0 40px;
 }
 
 /* RESPONSIVE */
