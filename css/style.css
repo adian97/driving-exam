@@ -395,8 +395,8 @@ header{
 /* PREVIOUS & NEXT */
 
 .nav-arrow{
-    width:75px;
-    height:75px;
+    width:65px;
+    height:65px;
     background:#69b52c;
     border:none;
     cursor:pointer;
@@ -413,7 +413,7 @@ header{
         75% 100%,
         0% 50%
     );
-    border-radius:25px;
+    border-radius:15px;
 }
 
 /* RIGHT */
@@ -425,7 +425,7 @@ header{
         25% 100%,
         0% 100%
     );
-    border-radius:25px;
+    border-radius:15px;
 }
 
 /* RESPONSIVE */
