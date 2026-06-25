@@ -326,27 +326,24 @@ header{
 }
 
 /* BOTTOM NAVIGATION */
-
 .bottom-navigation{
     background:#f5f5f5;
-    padding:15px 20px 45px 20px;
-
+    padding:15px 20px 35px;
     display:flex;
     align-items:flex-start;
     justify-content:space-between;
     width:100%;
 }
 
+/* Question Numbers */
 #questionNumbers{
     flex:1;
     display:flex;
     justify-content:center;
     gap:4px;
-
-    margin:0 10px;
+    margin:0 15px;
     overflow:hidden;
-
-    padding-bottom:45px;
+    padding-bottom:30px;
 }
 
 #questionNumbers::-webkit-scrollbar{
@@ -354,70 +351,73 @@ header{
 }
 
 .question-box-item{
-    width:42px;
-    min-width:42px;
-    height:42px;
+    width:30px;
+    min-width:30px;
+    height:30px;
 
     background:#fff;
-    border:1px solid #d0d0d0;
+    border:1px solid #d8d8d8;
 
     display:flex;
     justify-content:center;
     align-items:center;
 
-    font-size:14px;
+    font-size:11px;
     font-weight:600;
+    color:#333;
 
     position:relative;
     cursor:pointer;
 }
 
+/* Active Number */
 .question-box-item.active{
     background:#2ecc71;
     color:#fff;
-    border:none;
+    border-color:#2ecc71;
 }
 
+/* Bottom Arrow */
 .question-box-item.active::after{
     content:"";
     position:absolute;
     left:50%;
     transform:translateX(-50%);
-    bottom:-40px;
+    top:38px;
 
     width:0;
     height:0;
 
-    border-left:22px solid transparent;
-    border-right:22px solid transparent;
-    border-bottom:30px solid #69b52c;
+    border-left:14px solid transparent;
+    border-right:14px solid transparent;
+    border-bottom:18px solid #69b52c;
 }
 
-/* PREVIOUS & NEXT */
-
-/* PREVIOUS & NEXT */
-
+/* PREVIOUS & NEXT BUTTONS */
 .nav-arrow{
     width:0;
     height:0;
-    border:none;
     background:transparent;
+    border:none;
     cursor:pointer;
     padding:0;
-    margin:0 10px;
-    font-size:0;
+    flex-shrink:0;
 }
 
-.nav-arrow:first-child{
-    border-top:35px solid transparent;
-    border-bottom:35px solid transparent;
-    border-right:55px solid #69b52c;
+/* LEFT ARROW */
+#prevBtn{
+    border-top:18px solid transparent;
+    border-bottom:18px solid transparent;
+    border-right:28px solid #69b52c;
+    margin-right:15px;
 }
 
-.nav-arrow:last-child{
-    border-top:35px solid transparent;
-    border-bottom:35px solid transparent;
-    border-left:55px solid #69b52c;
+/* RIGHT ARROW */
+#nextBtn{
+    border-top:18px solid transparent;
+    border-bottom:18px solid transparent;
+    border-left:28px solid #69b52c;
+    margin-left:15px;
 }
 /* RESPONSIVE */
 
