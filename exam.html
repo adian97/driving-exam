@@ -7,99 +7,101 @@
 </head>
 <body class="exam-body">
 
-<!-- Top Bar -->
-<div class="exam-header">
-    <div class="header-left">
-        ← Exame IMT
+<div class="exam-container">
+
+    <!-- Top Bar -->
+    <div class="exam-header">
+        <div class="header-left">
+            ← Exame IMT
+        </div>
+
+        <div class="header-right">
+            Logout
+        </div>
     </div>
 
-    <div class="header-right">
-        Logout
+    <!-- Question Section -->
+    <div class="question-section">
+
+        <!-- Image -->
+        <div class="image-box">
+            <img id="questionImage" src="images/a/q1.jpg">
+        </div>
+
+        <!-- Question -->
+        <div class="question-box">
+            <div class="question-number">
+                <span id="questionNo">1</span>
+            </div>
+
+            <div class="question-text" id="questionText">
+                Question text here...
+            </div>
+        </div>
+
     </div>
+
+    <!-- Answers -->
+    <div id="answersContainer">
+
+        <div class="answer-row">
+            <div class="answer-letter">A</div>
+            <div class="answer-text">Option A</div>
+            <div class="answer-checkbox"></div>
+        </div>
+
+        <div class="answer-row">
+            <div class="answer-letter">B</div>
+            <div class="answer-text">Option B</div>
+            <div class="answer-checkbox"></div>
+        </div>
+
+        <div class="answer-row">
+            <div class="answer-letter">C</div>
+            <div class="answer-text">Option C</div>
+            <div class="answer-checkbox"></div>
+        </div>
+
+        <div class="answer-row">
+            <div class="answer-letter">D</div>
+            <div class="answer-text">Option D</div>
+            <div class="answer-checkbox"></div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-navigation">
+
+        <button class="nav-arrow"
+                onclick="previousQuestion()">
+        </button>
+
+        <div id="questionNumbers"></div>
+
+        <button class="nav-arrow"
+                onclick="nextQuestion()">
+        </button>
+
+    </div>
+
 </div>
 
-<!-- Question Section -->
-<div class="question-section">
+<script>
+function scaleExam() {
+    const exam = document.querySelector('.exam-container');
 
-    <!-- Image -->
-    <div class="image-box">
-        <img id="questionImage" src="images/a/q1.jpg">
-    </div>
+    const scale = Math.min(
+        window.innerWidth / 1366,
+        window.innerHeight / 768
+    );
 
-    <!-- Question -->
-    <div class="question-box">
-        <div class="question-number">
-            <span id="questionNo">1</span>
-        </div>
+    exam.style.transform = `scale(${scale})`;
+}
 
-        <div class="question-text" id="questionText">
-            Question text here...
-        </div>
-    </div>
-
-</div>
-
-<!-- Answers -->
-<div id="answersContainer">
-
-    <div class="answer-row">
-        <div class="answer-letter">A</div>
-
-        <div class="answer-text">
-            Option A
-        </div>
-
-        <div class="answer-checkbox"></div>
-    </div>
-
-    <div class="answer-row">
-        <div class="answer-letter">B</div>
-
-        <div class="answer-text">
-            Option B
-        </div>
-
-        <div class="answer-checkbox"></div>
-    </div>
-
-    <div class="answer-row">
-        <div class="answer-letter">C</div>
-
-        <div class="answer-text">
-            Option C
-        </div>
-
-        <div class="answer-checkbox"></div>
-    </div>
-
-    <div class="answer-row">
-        <div class="answer-letter">D</div>
-
-        <div class="answer-text">
-            Option D
-        </div>
-
-        <div class="answer-checkbox"></div>
-    </div>
-
-</div>
-
-<!-- Question Numbers -->
-<div class="bottom-navigation">
-
-    <button class="nav-arrow"
-            onclick="previousQuestion()">
-        
-    </button>
-
-    <div id="questionNumbers"></div>
-
-    <button class="nav-arrow"
-            onclick="nextQuestion()">
-        
-    </button>
-
-</div>
+window.addEventListener('resize', scaleExam);
+scaleExam();
+</script>
 
 <script src="js/exam.js"></script>
 
