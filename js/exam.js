@@ -4,44 +4,68 @@ let totalQuestions = 30;
 const questionNumbers =
     document.getElementById("questionNumbers");
 
-for(let i=0;i<totalQuestions;i++){
+// Create question number boxes
+for (let i = 0; i < totalQuestions; i++) {
 
-    const div =
-        document.createElement("div");
+    const div = document.createElement("div");
 
-    div.className =
-        "question-box-item";
+    div.className = "question-box-item";
+    div.innerText = i + 1;
 
-    if(i===0){
+    if (i === 0) {
         div.classList.add("active");
     }
 
-    div.innerText = i + 1;
-
-    div.onclick = function(){
+    div.addEventListener("click", function () {
         showQuestion(i);
-    };
+    });
 
     questionNumbers.appendChild(div);
 }
 
-function showQuestion(index){
+// Show selected question
+function showQuestion(index) {
+
+    if (index < 0 || index >= totalQuestions) {
+        return;
+    }
 
     currentQuestion = index;
 
-    document
-        .querySelectorAll(".question-box-item")
-        .forEach(box=>{
-            box.classList.remove("active");
-        });
+    const boxes =
+        document.querySelectorAll(".question-box-item");
 
-    document
-        .querySelectorAll(".question-box-item")
-        [index]
-        .classList
-        .add("active");
+    boxes.forEach(box => {
+        box.classList.remove("active");
+    });
 
-    document
-        .getElementById("questionNo")
-        .innerText = index + 1;
+    boxes[index].classList.add("active");
+
+    // Update question number on top
+    document.getElementById("questionNo").innerText =
+        index + 1;
+
+    // Scroll active number into view
+    boxes[index].scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest"
+    });
 }
+
+// Next button
+function nextQuestion() {
+    if (currentQuestion < totalQuestions - 1) {
+        showQuestion(currentQuestion + 1);
+    }
+}
+
+// Previous button
+function previousQuestion() {
+    if (currentQuestion > 0) {
+        showQuestion(currentQuestion - 1);
+    }
+}
+
+// Start with question 1
+showQuestion(0);
