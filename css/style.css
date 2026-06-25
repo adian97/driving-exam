@@ -395,37 +395,37 @@ header{
 /* PREVIOUS & NEXT */
 
 .nav-arrow{
-    width:70px;
-    height:70px;
+    width:75px;
+    height:75px;
     background:#69b52c;
     border:none;
     cursor:pointer;
-    font-size:0;
+    padding:0;
     margin:0 15px;
 }
 
 /* LEFT */
 .nav-arrow:first-child{
     clip-path:polygon(
+        75% 0%,
         100% 0%,
-        45% 0%,
-        0% 50%,
-        45% 100%,
-        100% 100%
+        100% 100%,
+        75% 100%,
+        0% 50%
     );
-    border-radius:20px;
+    border-radius:25px;
 }
 
 /* RIGHT */
 .nav-arrow:last-child{
     clip-path:polygon(
         0% 0%,
-        55% 0%,
+        25% 0%,
         100% 50%,
-        55% 100%,
+        25% 100%,
         0% 100%
     );
-    border-radius:20px;
+    border-radius:25px;
 }
 
 /* RESPONSIVE */
