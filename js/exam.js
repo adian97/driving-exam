@@ -1,71 +1,204 @@
+let questions = [];
 let currentQuestion = 0;
-let totalQuestions = 30;
 
-const questionNumbers =
-    document.getElementById("questionNumbers");
+const mode =
+    sessionStorage.getItem("mode");
 
-// Create question number boxes
-for (let i = 0; i < totalQuestions; i++) {
+const category =
+    sessionStorage.getItem("selectedCategory");
 
-    const div = document.createElement("div");
+if (mode === "exam") {
 
-    div.className = "question-box-item";
-    div.innerText = i + 1;
-
-    if (i === 0) {
-        div.classList.add("active");
+    if (category === "A") {
+        loadQuestions("data/category_a.json");
     }
 
-    div.addEventListener("click", function () {
-        showQuestion(i);
-    });
+    if (category === "B") {
+        loadQuestions("data/category_b.json");
+    }
 
-    questionNumbers.appendChild(div);
+    if (category === "C") {
+        loadQuestions("data/category_c.json");
+    }
 }
 
-// Show selected question
-function showQuestion(index) {
+if (mode === "practice") {
+    loadAllQuestions();
+}
 
-    if (index < 0 || index >= totalQuestions) {
-        return;
-    }
+function loadQuestions(file) {
+
+    fetch(file)
+        .then(response => response.json())
+        .then(data => {
+
+            questions = data;
+
+            createQuestionNumbers();
+            showQuestion(0);
+        });
+}
+
+async function loadAllQuestions() {
+
+    const a =
+        await fetch("data/category_a.json")
+            .then(r => r.json());
+
+    const b =
+        await fetch("data/category_b.json")
+            .then(r => r.json());
+
+    const c =
+        await fetch("data/category_c.json")
+            .then(r => r.json());
+
+    questions = [
+        ...a,
+        ...b,
+        ...c
+    ];
+
+    createQuestionNumbers();
+    showQuestion(0);
+}
+
+function createQuestionNumbers() {
+
+    const container =
+        document.getElementById(
+            "questionNumbers"
+        );
+
+    container.innerHTML = "";
+
+    questions.forEach((q, index) => {
+
+        const div =
+            document.createElement("div");
+
+        div.className =
+            "question-box-item";
+
+        div.innerText =
+            index + 1;
+
+        div.onclick = function () {
+            showQuestion(index);
+        };
+
+        container.appendChild(div);
+    });
+}
+
+function showQuestion(index) {
 
     currentQuestion = index;
 
-    const boxes =
-        document.querySelectorAll(".question-box-item");
+    const q = questions[index];
 
-    boxes.forEach(box => {
-        box.classList.remove("active");
-    });
-
-    boxes[index].classList.add("active");
-
-    // Update question number on top
-    document.getElementById("questionNo").innerText =
+    document.getElementById(
+        "questionNo"
+    ).innerText =
         index + 1;
 
-    // Scroll active number into view
-    boxes[index].scrollIntoView({
-        behavior: "smooth",
-        inline: "center",
-        block: "nearest"
+    document.getElementById(
+        "questionText"
+    ).innerText =
+        q.question;
+
+    document.getElementById(
+        "questionImage"
+    ).src =
+        q.image;
+
+    document
+        .querySelectorAll(".question-box-item")
+        .forEach(box => {
+            box.classList.remove("active");
+        });
+
+    document
+        .querySelectorAll(".question-box-item")
+        [index]
+        .classList
+        .add("active");
+
+    loadOptions(q);
+}
+
+function loadOptions(question) {
+
+    const container =
+        document.getElementById(
+            "answersContainer"
+        );
+
+    container.innerHTML = "";
+
+    const options = [];
+
+    if (question.optionA) {
+        options.push({
+            letter: "A",
+            text: question.optionA
+        });
+    }
+
+    if (question.optionB) {
+        options.push({
+            letter: "B",
+            text: question.optionB
+        });
+    }
+
+    if (question.optionC) {
+        options.push({
+            letter: "C",
+            text: question.optionC
+        });
+    }
+
+    if (question.optionD) {
+        options.push({
+            letter: "D",
+            text: question.optionD
+        });
+    }
+
+    options.forEach(option => {
+
+        const row =
+            document.createElement("div");
+
+        row.className =
+            "answer-row";
+
+        row.innerHTML = `
+            <div class="answer-letter">
+                ${option.letter}
+            </div>
+
+            <div class="answer-text">
+                ${option.text}
+            </div>
+
+            <div class="answer-checkbox">
+            </div>
+        `;
+
+        container.appendChild(row);
     });
 }
 
-// Next button
 function nextQuestion() {
-    if (currentQuestion < totalQuestions - 1) {
+    if (currentQuestion < questions.length - 1) {
         showQuestion(currentQuestion + 1);
     }
 }
 
-// Previous button
 function previousQuestion() {
     if (currentQuestion > 0) {
         showQuestion(currentQuestion - 1);
     }
 }
-
-// Start with question 1
-showQuestion(0);
