@@ -249,47 +249,46 @@ header{
 }
 
 /* IMAGE + QUESTION */
-
 .question-section{
     display:grid;
     grid-template-columns:58% 42%;
-    gap:12px;
-    padding:15px 20px 10px 20px;
+    gap:15px;
+    padding:15px 20px 5px;
 }
 
 .image-box{
     background:#fff;
     border-bottom:4px solid #2ecc71;
     overflow:hidden;
-    aspect-ratio:16/9;
-    max-height:240px;
+    height:260px;
 }
 
 .image-box img{
     width:100%;
     height:100%;
-    object-fit:contain;
+    object-fit:cover;
     display:block;
 }
 
 .question-box{
     background:#fff;
-    min-height:240px;
+    height:260px;
     padding:10px;
 }
+
 .question-number{
-    font-size:80px;
+    font-size:65px;
     font-weight:700;
     color:#555;
     line-height:1;
 }
 
 .question-text{
-    margin-top:10px;
-    padding:15px;
+    margin-top:5px;
+    padding:12px;
     border:2px solid #666;
-    min-height:190px;
-    font-size:22px;
+    min-height:150px;
+    font-size:20px;
     line-height:1.4;
     font-weight:600;
 }
@@ -304,24 +303,24 @@ header{
     display:grid;
     grid-template-columns:70px 1fr 80px;
     align-items:center;
-    min-height:92px;
+    min-height:68px;
     padding:0 25px;
     border-bottom:1px solid #ddd;
 }
 
 .answer-letter{
-    font-size:44px;
+    font-size:35px;
     font-weight:700;
 }
 
 .answer-text{
-    font-size:22px;
+    font-size:18px;
     font-weight:600;
 }
 
 .answer-checkbox{
-    width:55px;
-    height:55px;
+    width:42px;
+    height:42px;
     border:2px solid #999;
     border-radius:4px;
 }
