@@ -395,12 +395,13 @@ header{
 /* PREVIOUS & NEXT */
 
 .nav-arrow{
-    width:65px;
-    height:65px;
+    width:80px;
+    height:80px;
     background:#69b52c;
     border:none;
     cursor:pointer;
     margin:0 15px;
+    font-size:0;
 }
 
 /* LEFT */
