@@ -1,6 +1,9 @@
 let questions = [];
 let currentQuestion = 0;
 
+console.log("MODE:", sessionStorage.getItem("mode"));
+console.log("CATEGORY:", sessionStorage.getItem("selectedCategory"));
+
 const mode =
     sessionStorage.getItem("mode");
 
@@ -27,6 +30,7 @@ if (mode === "practice") {
 }
 
 function loadQuestions(file) {
+    console.log("Loading:", file);
 
     fetch(file)
         .then(response => response.json())
