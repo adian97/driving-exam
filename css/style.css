@@ -335,12 +335,12 @@ header{
 /* Question Numbers */
 #questionNumbers{
     display:flex;
-    gap:2px;
+    gap:1px;
 }
 
 .question-box-item{
-    width:42px;
-    min-width:42px;
+    width:32px;
+    min-width:32px;
     height:42px;
     background:#fff;
     border:1px solid #d0d0d0;
@@ -387,18 +387,18 @@ header{
 
 /* LEFT */
 .nav-arrow:first-child{
-    border-top:35px solid transparent;
-    border-bottom:35px solid transparent;
-    border-right:55px solid #69b52c;
-    margin-right:20px;
+    border-top:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-right:45px solid #69b52c;
+    margin-right:10px;
 }
 
 /* RIGHT */
 .nav-arrow:last-child{
-    border-top:35px solid transparent;
-    border-bottom:35px solid transparent;
-    border-left:55px solid #69b52c;
-    margin-left:20px;
+    border-top:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-left:45px solid #69b52c;
+    margin-left:10px;
 }
 /* RESPONSIVE */
 
