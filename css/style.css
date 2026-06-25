@@ -383,9 +383,9 @@ header{
     width:0;
     height:0;
 
-    border-left:28px solid transparent;
-    border-right:28px solid transparent;
-    border-bottom:38px solid #69b52c;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+    border-bottom:35px solid #69b52c;
 }
 
 /* PREVIOUS & NEXT */
