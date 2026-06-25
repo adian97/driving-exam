@@ -377,6 +377,23 @@ header{
     border:none;
 }
 
+.question-box-item.active::after{
+    content:"";
+    position:absolute;
+
+    left:50%;
+    transform:translateX(-50%);
+
+    bottom:-38px;
+
+    width:0;
+    height:0;
+
+    border-left:22px solid transparent;
+    border-right:22px solid transparent;
+    border-top:30px solid #69b52c;
+}
+
 /* PREVIOUS & NEXT */
 
 .nav-arrow{
