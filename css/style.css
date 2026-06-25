@@ -320,6 +320,17 @@ header{
     align-items:center;
     gap:15px;
 }
+.nav-arrow:first-child{
+    border-top:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-right:45px solid #69b52c;
+}
+
+.nav-arrow:last-child{
+    border-top:30px solid transparent;
+    border-bottom:30px solid transparent;
+    border-left:45px solid #69b52c;
+}
 
 /* Question Numbers */
 #questionNumbers{
