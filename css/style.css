@@ -216,10 +216,25 @@ header{
 ========================== */
 
 .exam-body{
-    background:#f4f4f4;
+    background:#dcdcdc;
     margin:0;
     padding:0;
-    min-height:100vh;
+    overflow:hidden;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:100vw;
+    height:100vh;
+}
+
+.exam-container{
+    width:1366px;
+    height:768px;
+    background:#f4f4f4;
+    overflow:hidden;
+    transform-origin:center center;
 }
 
 /* HEADER */
