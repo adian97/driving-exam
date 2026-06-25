@@ -225,14 +225,11 @@ header{
 /* HEADER */
 
 .exam-header{
-    height:90px;
+    height:70px;
     background:#6C5CE7;
     color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 35px;
-    font-size:24px;
+    padding:0 25px;
+    font-size:18px;
     font-weight:600;
 }
 
@@ -264,18 +261,12 @@ header{
 
 .image-box img{
     width:100%;
-    height:330px;
-    object-fit:contain;
-    background:white;
-    display:block;
+    height:430px;
+    object-fit:cover;
 }
 
 .question-box{
-    background:#fff;
-    border-bottom:4px solid #2ecc71;
-    padding:20px;
-    min-height:330px;
-    border-radius:4px;
+    min-height:430px;
 }
 
 .question-number{
@@ -286,10 +277,11 @@ header{
 
 .question-text{
     margin-top:20px;
-    font-size:32px;
-    font-weight:600;
+    padding:15px;
+    border:2px solid #666;
+    min-height:280px;
+    font-size:28px;
     line-height:1.4;
-    color:#333;
 }
 
 /* ANSWERS */
@@ -299,13 +291,8 @@ header{
 }
 
 .answer-row{
-    display:grid;
-    grid-template-columns:80px 1fr 70px;
-    align-items:center;
-    min-height:95px;
-    padding:0 30px;
-    border-bottom:1px solid #ddd;
-    background:#fff;
+    min-height:110px;
+    padding:0 40px;
 }
 
 .answer-letter{
@@ -330,15 +317,12 @@ header{
 /* BOTTOM NAVIGATION */
 
 .bottom-navigation{
-    background:#f3eefb;
-    padding:15px 20px 30px;
+    background:#f5f5f5;
+    padding:25px;
     display:flex;
     align-items:center;
-    justify-content:space-between;
-    gap:15px;
-    overflow:visible;
+    gap:20px;
 }
-
 #questionNumbers{
     flex:1;
     display:flex;
@@ -355,19 +339,12 @@ header{
 }
 
 .question-box-item{
+    width:55px;
     min-width:55px;
     height:55px;
-    background:#fff;
-    border-radius:8px;
-    border:1px solid #ddd;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:24px;
-    cursor:pointer;
-    position:relative;
+    border-radius:2px;
+    border:1px solid #999;
 }
-
 .question-box-item.active{
     background:#2ecc71;
     color:#fff;
@@ -389,16 +366,14 @@ header{
 }
 
 .nav-arrow{
-    width:55px;
-    min-width:55px;
-    height:55px;
+    width:70px;
+    height:100px;
     border:none;
-    background:#2ecc71;
+    background:#74a84c;
     color:white;
-    font-size:28px;
-    border-radius:8px;
+    font-size:40px;
+    border-radius:0 20px 20px 0;
     cursor:pointer;
-    flex-shrink:0;
 }
 
 /* TABLET */
@@ -406,8 +381,10 @@ header{
 @media(max-width:1200px){
 
     .question-section{
-        grid-template-columns:1fr;
-    }
+    grid-template-columns:58% 42%;
+    gap:15px;
+    padding:20px;
+}
 
     .question-text{
         font-size:26px;
