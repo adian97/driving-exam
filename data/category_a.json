@@ -6,6 +6,7 @@
     "optionA": "Give way to all vehicles and pedestrians.",
     "optionB": "Move forward without giving way.",
     "optionC": "Speed up.",
+    "optionD": "",
     "correctAnswer": "A"
   }
 ]
