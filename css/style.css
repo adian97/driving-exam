@@ -330,8 +330,12 @@ header{
 
 .bottom-navigation{
     background:#f3eefb;
-    padding:15px 20px 25px 20px;
-    overflow:visible;
+    padding:15px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15px;
+    overflow:hidden;
 }
 
 #questionNumbers{
@@ -339,8 +343,9 @@ header{
     display:flex;
     gap:12px;
     overflow-x:auto;
-    overflow-y:visible;
-    padding-bottom:20px;
+    overflow-y:hidden;
+    scrollbar-width:none;
+    white-space:nowrap;
 }
 
 #questionNumbers::-webkit-scrollbar{
