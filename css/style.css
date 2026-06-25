@@ -262,6 +262,7 @@ header{
     border-bottom:4px solid #2ecc71;
     overflow:hidden;
     aspect-ratio:16/9;
+    max-height:240px;
 }
 
 .image-box img{
@@ -272,9 +273,10 @@ header{
 }
 
 .question-box{
-    min-height:auto;
+    background:#fff;
+    min-height:240px;
+    padding:10px;
 }
-
 .question-number{
     font-size:80px;
     font-weight:700;
