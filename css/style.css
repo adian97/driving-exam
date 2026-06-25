@@ -261,19 +261,18 @@ header{
     background:#fff;
     border-bottom:4px solid #2ecc71;
     overflow:hidden;
+    aspect-ratio:16/9;
 }
 
 .image-box img{
     width:100%;
-    height:320px;
-    object-fit:cover;
+    height:100%;
+    object-fit:contain;
     display:block;
 }
 
 .question-box{
-    background:#fff;
-    min-height:320px;
-    padding:10px;
+    min-height:auto;
 }
 
 .question-number{
