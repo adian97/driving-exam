@@ -239,30 +239,6 @@ header{
 
 /* HEADER */
 
-.exam-header{
-    height:70px;
-    background:#6C5CE7;
-    color:white;
-    padding:0 25px;
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-    font-size:18px;
-    font-weight:600;
-}
-
-.header-left{
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
-.header-right{
-    cursor:pointer;
-}
-
 /* IMAGE + QUESTION */
 .question-section{
     display:grid;
