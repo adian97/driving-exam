@@ -3,22 +3,39 @@ const correct =
         sessionStorage.getItem(
             "correctAnswers"
         )
-    );
+    ) || 0;
 
 const wrong =
     Number(
         sessionStorage.getItem(
             "wrongAnswers"
         )
-    );
+    ) || 0;
+
+const userAnswers =
+    JSON.parse(
+        sessionStorage.getItem(
+            "userAnswers"
+        )
+    ) || [];
+
+const unanswered =
+    userAnswers.filter(
+        answer => !answer
+    ).length;
 
 const total =
-    correct + wrong;
+    correct + wrong + unanswered;
 
 const score =
-    Math.round(
-        (correct / total) * 100
-    );
+    total > 0
+        ? Math.round(
+            (correct / total) * 100
+        )
+        : 0;
+
+
+/* RESULT NUMBERS */
 
 document.getElementById(
     "correctText"
@@ -27,6 +44,7 @@ document.getElementById(
 document.getElementById(
     "wrongText"
 ).innerText = wrong;
+
 document.getElementById(
     "correctBox"
 ).innerText = correct;
@@ -36,6 +54,10 @@ document.getElementById(
 ).innerText = wrong;
 
 document.getElementById(
+    "unansweredBox"
+).innerText = unanswered;
+
+document.getElementById(
     "accuracyBox"
 ).innerText = score + "%";
 
@@ -43,6 +65,9 @@ document.getElementById(
     "scoreText"
 ).innerText =
     score + "%";
+
+
+/* PASS OR FAIL */
 
 if (correct >= 27) {
 
