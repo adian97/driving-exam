@@ -490,11 +490,11 @@ header{
 /* RESULT PAGE */
 
 .result-page{
-    width:1400px;
-    margin:30px auto;
-    padding:20px;
+    width:92%;
+    max-width:1400px;
+    margin:20px auto;
+    padding:10px;
 }
-
 .result-header{
     text-align:center;
     margin-bottom:30px;
@@ -514,28 +514,28 @@ header{
 }
 
 .result-header h1{
-    font-size:65px;
+    font-size:50px;
     margin-top:20px;
 }
 
 .result-header p{
-    font-size:30px;
+    font-size:24px;
     color:#666;
 }
 
 .result-card{
     background:white;
     border-radius:25px;
-    padding:40px;
+    padding:30px;
     display:flex;
-    gap:60px;
+    gap:40px;
     align-items:center;
     box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
 
 .score-circle{
-    width:320px;
-    height:320px;
+    width:220px;
+    height:220px;
     border-radius:50%;
     border:25px solid #17c653;
     display:flex;
@@ -545,7 +545,7 @@ header{
 }
 
 .score-circle h2{
-    font-size:70px;
+    font-size:55px;
     color:#17c653;
 }
 
@@ -587,7 +587,7 @@ header{
     background:white;
     border-radius:25px;
     padding:35px;
-    margin-top:30px;
+    margin-top:20px;
     box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
 
@@ -603,13 +603,13 @@ header{
 
 .performance-box{
     background:#f7f7f7;
-    padding:40px;
+    padding:25px;
     border-radius:20px;
     text-align:center;
 }
 
 .performance-box h1{
-    font-size:70px;
+    font-size:50px;
 }
 
 .performance-box p{
@@ -624,8 +624,8 @@ header{
 }
 
 .result-buttons button{
-    width:260px;
-    height:70px;
+    width:220px;
+    height:60px;
     border:none;
     border-radius:15px;
     background:#17c653;
