@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,25 +7,82 @@
 </head>
 <body>
 
-<div class="result-container">
+<div class="result-page">
 
-    <h1 id="resultStatus">PASSED</h1>
+    <div class="result-header">
 
-    <h2>
-        Score:
-        <span id="scoreText">0%</span>
-    </h2>
+        <div class="result-icon">
+            ✔
+        </div>
 
-    <div class="result-box">
-        <p>
-            Correct Answers:
-            <span id="correctText">0</span>
-        </p>
+        <h1>Exam Completed!</h1>
 
         <p>
-            Wrong Answers:
-            <span id="wrongText">0</span>
+            Great job! You have successfully completed the exam.
         </p>
+
+    </div>
+
+    <div class="result-card">
+
+        <div class="score-circle">
+            <div>
+                <h2 id="scoreText">0%</h2>
+                <p>Your Score</p>
+            </div>
+        </div>
+
+        <div class="result-info">
+
+            <h1 id="resultStatus">
+                PASSED
+            </h1>
+
+            <p id="resultMessage">
+                Congratulations! You have passed the exam.
+            </p>
+
+            <div class="result-stats">
+
+                <div>
+                    <h2 id="correctText">0</h2>
+                    <p>Correct Answers</p>
+                </div>
+
+                <div>
+                    <h2 id="wrongText">0</h2>
+                    <p>Wrong Answers</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="performance-card">
+
+        <h2>Performance Summary</h2>
+
+        <div class="performance-grid">
+
+            <div class="performance-box">
+                <h1 id="correctBox">0</h1>
+                <p>Correct</p>
+            </div>
+
+            <div class="performance-box">
+                <h1 id="wrongBox">0</h1>
+                <p>Incorrect</p>
+            </div>
+
+            <div class="performance-box">
+                <h1 id="accuracyBox">0%</h1>
+                <p>Accuracy</p>
+            </div>
+
+        </div>
+
     </div>
 
     <div class="result-buttons">
