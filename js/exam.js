@@ -271,3 +271,43 @@ function finishExam() {
 function finishExam() {
     alert("Finish button works!");
 }
+function finishExam() {
+
+    let correct = 0;
+
+    questions.forEach((question, index) => {
+
+        if (
+            userAnswers[index] ===
+            question.correctAnswer
+        ) {
+            correct++;
+        }
+    });
+
+    const wrong =
+        questions.length - correct;
+
+    sessionStorage.setItem(
+        "correctAnswers",
+        correct
+    );
+
+    sessionStorage.setItem(
+        "wrongAnswers",
+        wrong
+    );
+
+    sessionStorage.setItem(
+        "userAnswers",
+        JSON.stringify(userAnswers)
+    );
+
+    sessionStorage.setItem(
+        "questions",
+        JSON.stringify(questions)
+    );
+
+    window.location.href =
+        "result.html";
+}
