@@ -1,3 +1,4 @@
+alert("exam.js loaded");
 let questions = [];
 let currentQuestion = 0;
 
