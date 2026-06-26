@@ -514,12 +514,12 @@ header{
 }
 
 .result-header h1{
-    font-size:50px;
-    margin-top:20px;
+    font-size:40px;
+    margin-top:10px;
 }
 
 .result-header p{
-    font-size:24px;
+    font-size:20px;
     color:#666;
 }
 
@@ -534,8 +534,8 @@ header{
 }
 
 .score-circle{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     border-radius:50%;
     border:25px solid #17c653;
     display:flex;
@@ -545,13 +545,13 @@ header{
 }
 
 .score-circle h2{
-    font-size:55px;
+    font-size:35px;
     color:#17c653;
 }
 
 .score-circle p{
     text-align:center;
-    font-size:28px;
+    font-size:24px;
 }
 
 .result-info{
@@ -559,18 +559,18 @@ header{
 }
 
 .result-info h1{
-    font-size:80px;
+    font-size:60px;
     color:#17c653;
 }
 
 .result-info p{
-    font-size:28px;
+    font-size:24px;
     color:#444;
 }
 .pass-mark{
     margin-top:15px;
     color:#777;
-    font-size:20px;
+    font-size:18px;
 }
 
 .result-stats{
@@ -586,7 +586,7 @@ header{
 .performance-card{
     background:white;
     border-radius:25px;
-    padding:35px;
+    padding:30px;
     margin-top:20px;
     box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
