@@ -312,8 +312,17 @@ header{
 .answer-checkbox{
     width:50px;
     height:50px;
+    border:2px solid #bbb;
     border-radius:8px;
     background:#e8e8e8;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:42px;
+    font-weight:bold;
+    color:transparent;
 }
 /* BOTTOM NAVIGATION */
 .bottom-navigation{
@@ -427,4 +436,34 @@ header{
     .answer-text{
         font-size:24px;
     }
+    
+}
+.answer-row{
+    cursor:pointer;
+}
+
+.answer-checkbox{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:42px;
+    font-weight:bold;
+    color:transparent;
+}
+
+.answer-row.selected{
+    background:#f8fff8;
+}
+
+.answer-row.selected .answer-letter{
+    color:#69b52c;
+}
+
+.answer-row.selected .answer-text{
+    color:#69b52c;
+}
+
+.answer-row.selected .answer-checkbox{
+    color:#69b52c;
+    border-color:#69b52c;
 }
