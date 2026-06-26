@@ -99,3 +99,18 @@ else {
     ).innerText =
         "Keep practicing and try again.";
 }
+
+function reviewAnswers() {
+    window.location.href =
+        "review.html";
+}
+
+function tryAgain() {
+    window.location.href =
+        "exam.html";
+}
+
+function goHome() {
+    window.location.href =
+        "main.html";
+}
