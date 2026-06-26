@@ -268,3 +268,6 @@ function finishExam() {
     window.location.href =
         "result.html";
 }
+function finishExam() {
+    alert("Finish button works!");
+}
