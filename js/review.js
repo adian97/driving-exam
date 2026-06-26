@@ -144,31 +144,49 @@ function loadReviewOptions(question) {
         div.className =
             "review-option";
 
-        div.innerHTML =
-            "<b>" +
-            option.letter +
-            ".</b> " +
-            option.text;
+       div.innerHTML =
+`
+<div style="
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+">
+    <span>
+        <b>${option.letter}.</b>
+        ${option.text}
+    </span>
 
-        if (
-            option.letter ===
-            question.correctAnswer
-        ) {
-            div.classList.add(
-                "correct"
-            );
-        }
+    <span class="review-icon">
+    </span>
+</div>
+`;
 
+       if (
+    option.letter ===
+    question.correctAnswer
+) {
+    div.classList.add(
+        "correct"
+    );
+
+    div.querySelector(
+        ".review-icon"
+    ).innerHTML = "✔";
+}
         if (
-            option.letter ===
-            userAnswers[currentQuestion] &&
-            option.letter !==
-            question.correctAnswer
-        ) {
-            div.classList.add(
-                "wrong"
-            );
-        }
+    option.letter ===
+    userAnswers[currentQuestion] &&
+    option.letter !==
+    question.correctAnswer
+) {
+    div.classList.add(
+        "wrong"
+    );
+
+    div.querySelector(
+        ".review-icon"
+    ).innerHTML = "✖";
+}
 
         container.appendChild(div);
     });
