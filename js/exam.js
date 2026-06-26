@@ -1,5 +1,6 @@
 let questions = [];
 let currentQuestion = 0;
+let userAnswers = [];
 
 console.log("MODE:", sessionStorage.getItem("mode"));
 console.log("CATEGORY:", sessionStorage.getItem("selectedCategory"));
@@ -186,17 +187,31 @@ function loadOptions(question) {
             "answer-row";
 
         row.innerHTML = `
-            <div class="answer-letter">
-                ${option.letter}
-            </div>
+    <div class="answer-letter">
+        ${option.letter}
+    </div>
 
-            <div class="answer-text">
-                ${option.text}
-            </div>
+    <div class="answer-text">
+        ${option.text}
+    </div>
 
-            <div class="answer-checkbox">
-            </div>
-        `;
+    <div class="answer-checkbox">
+        ✕
+    </div>
+`;
+        row.onclick = function () {
+
+    userAnswers[currentQuestion] =
+        option.letter;
+
+    loadOptions(question);
+};
+        if (
+    userAnswers[currentQuestion] ===
+    option.letter
+) {
+    row.classList.add("selected");
+}
 
         container.appendChild(row);
     });
