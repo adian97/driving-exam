@@ -44,31 +44,33 @@ document.getElementById(
 ).innerText =
     score + "%";
 
-if (score >= 74) {
+if (correct >= 27) {
+
     document.getElementById(
         "resultStatus"
     ).innerText = "PASSED";
+
+    document.getElementById(
+        "resultStatus"
+    ).style.color = "#17c653";
+
+    document.getElementById(
+        "resultMessage"
+    ).innerText =
+        "Congratulations! You have passed the exam.";
 }
 else {
+
     document.getElementById(
         "resultStatus"
     ).innerText = "FAILED";
+
     document.getElementById(
         "resultStatus"
-    ).style.color = "red";
-}
+    ).style.color = "#ff4d4f";
 
-function reviewAnswers() {
-    window.location.href =
-        "review.html";
-}
-
-function tryAgain() {
-    window.location.href =
-        "exam.html";
-}
-
-function goHome() {
-    window.location.href =
-        "main.html";
+    document.getElementById(
+        "resultMessage"
+    ).innerText =
+        "Keep practicing and try again.";
 }
