@@ -15,15 +15,15 @@ console.log("CATEGORY:", category);
 
 if (mode === "exam") {
 
-    if (category === "A") {
+    if (category === "a") {
         loadQuestions("data/category_a.json");
     }
 
-    if (category === "B") {
+    if (category === "b") {
         loadQuestions("data/category_b.json");
     }
 
-    if (category === "C") {
+    if (category === "c") {
         loadQuestions("data/category_c.json");
     }
 }
