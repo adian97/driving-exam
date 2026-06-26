@@ -1,2 +1,15 @@
+let questions =
+    JSON.parse(
+        sessionStorage.getItem(
+            "questions"
+        )
+    ) || [];
 
-// exam javascript
+let userAnswers =
+    JSON.parse(
+        sessionStorage.getItem(
+            "userAnswers"
+        )
+    ) || [];
+
+let currentQuestion = 0;
