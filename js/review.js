@@ -41,11 +41,11 @@ function createReviewNumbers() {
                 "correct"
             );
         }
-        else {
-            div.classList.add(
-                "wrong"
-            );
-        }
+        else if (userAnswers[index]) {
+    div.classList.add(
+        "wrong"
+    );
+}
 
         div.onclick = function () {
             showReviewQuestion(index);
