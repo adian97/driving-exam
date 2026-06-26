@@ -752,3 +752,15 @@ header{
     font-size:18px;
     cursor:pointer;
 }
+.review-icon{
+    font-size:32px;
+    font-weight:bold;
+}
+
+.review-option.correct .review-icon{
+    color:#17c653;
+}
+
+.review-option.wrong .review-icon{
+    color:#ff4d4f;
+}
