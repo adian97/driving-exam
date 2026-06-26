@@ -27,6 +27,17 @@ document.getElementById(
 document.getElementById(
     "wrongText"
 ).innerText = wrong;
+document.getElementById(
+    "correctBox"
+).innerText = correct;
+
+document.getElementById(
+    "wrongBox"
+).innerText = wrong;
+
+document.getElementById(
+    "accuracyBox"
+).innerText = score + "%";
 
 document.getElementById(
     "scoreText"
