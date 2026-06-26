@@ -567,6 +567,11 @@ header{
     font-size:28px;
     color:#444;
 }
+.pass-mark{
+    margin-top:15px;
+    color:#777;
+    font-size:20px;
+}
 
 .result-stats{
     display:flex;
