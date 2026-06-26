@@ -54,3 +54,146 @@ function createReviewNumbers() {
         container.appendChild(div);
     });
 }
+function showReviewQuestion(index) {
+
+    currentQuestion = index;
+
+    const question =
+        questions[index];
+
+    document.getElementById(
+        "reviewQuestionNo"
+    ).innerText =
+        index + 1;
+
+    document.getElementById(
+        "reviewQuestion"
+    ).innerText =
+        question.question;
+
+    document.getElementById(
+        "reviewImage"
+    ).src =
+        question.image;
+
+    document
+        .querySelectorAll(
+            ".review-number"
+        )
+        .forEach(item => {
+            item.classList.remove(
+                "active"
+            );
+        });
+
+    document
+        .querySelectorAll(
+            ".review-number"
+        )
+        [index]
+        .classList.add(
+            "active"
+        );
+
+    loadReviewOptions(question);
+}
+function loadReviewOptions(question) {
+
+    const container =
+        document.getElementById(
+            "reviewOptions"
+        );
+
+    container.innerHTML = "";
+
+    const options = [];
+
+    if (question.optionA) {
+        options.push({
+            letter: "A",
+            text: question.optionA
+        });
+    }
+
+    if (question.optionB) {
+        options.push({
+            letter: "B",
+            text: question.optionB
+        });
+    }
+
+    if (question.optionC) {
+        options.push({
+            letter: "C",
+            text: question.optionC
+        });
+    }
+
+    if (question.optionD) {
+        options.push({
+            letter: "D",
+            text: question.optionD
+        });
+    }
+
+    options.forEach(option => {
+
+        const div =
+            document.createElement("div");
+
+        div.className =
+            "review-option";
+
+        div.innerHTML =
+            "<b>" +
+            option.letter +
+            ".</b> " +
+            option.text;
+
+        if (
+            option.letter ===
+            question.correctAnswer
+        ) {
+            div.classList.add(
+                "correct"
+            );
+        }
+
+        if (
+            option.letter ===
+            userAnswers[currentQuestion] &&
+            option.letter !==
+            question.correctAnswer
+        ) {
+            div.classList.add(
+                "wrong"
+            );
+        }
+
+        container.appendChild(div);
+    });
+}
+function nextReviewQuestion() {
+
+    if (
+        currentQuestion <
+        questions.length - 1
+    ) {
+        showReviewQuestion(
+            currentQuestion + 1
+        );
+    }
+}
+
+function previousReviewQuestion() {
+
+    if (
+        currentQuestion > 0
+    ) {
+        showReviewQuestion(
+            currentQuestion - 1
+        );
+    }
+}
+createReviewNumbers();
+showReviewQuestion(0);
