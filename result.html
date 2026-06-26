@@ -1,1 +1,53 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Result</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="result-container">
+
+    <h1 id="resultStatus">PASSED</h1>
+
+    <h2>
+        Score:
+        <span id="scoreText">0%</span>
+    </h2>
+
+    <div class="result-box">
+        <p>
+            Correct Answers:
+            <span id="correctText">0</span>
+        </p>
+
+        <p>
+            Wrong Answers:
+            <span id="wrongText">0</span>
+        </p>
+    </div>
+
+    <div class="result-buttons">
+
+        <button onclick="reviewAnswers()">
+            Review Answers
+        </button>
+
+        <button onclick="tryAgain()">
+            Try Again
+        </button>
+
+        <button onclick="goHome()">
+            Back Home
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/result.js"></script>
+
+</body>
+</html>
