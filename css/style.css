@@ -468,12 +468,18 @@ header{
     border-color:#69b52c;
 }
 #finishBtn{
-    padding:12px 25px;
+    display:block;
+    margin:10px auto 0 auto;
+
+    padding:12px 30px;
+
     border:none;
     border-radius:10px;
+
     background:#6C5CE7;
     color:white;
+
     font-size:18px;
+    font-weight:600;
     cursor:pointer;
-    margin-left:20px;
 }
