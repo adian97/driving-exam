@@ -1,12 +1,304 @@
+```json
 [
   {
     "id": 1,
-    "question": "What should the driver do when leaving a private road?",
+    "question": "What should a driver do before changing lanes?",
     "image": "images/a/q1.jpg",
-    "optionA": "Give way to all vehicles and pedestrians.",
-    "optionB": "Move forward without giving way.",
-    "optionC": "Speed up.",
+    "optionA": "Check mirrors and signal.",
+    "optionB": "Speed up immediately.",
+    "optionC": "Close eyes briefly.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 2,
+    "question": "What does a red traffic light mean?",
+    "image": "images/a/q2.jpg",
+    "optionA": "Go quickly.",
+    "optionB": "Stop.",
+    "optionC": "Turn around.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 3,
+    "question": "When should headlights be used?",
+    "image": "images/a/q3.jpg",
+    "optionA": "Only during rain.",
+    "optionB": "At night or low visibility.",
+    "optionC": "Only on highways.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 4,
+    "question": "What should you do at a zebra crossing?",
+    "image": "images/a/q4.jpg",
+    "optionA": "Give way to pedestrians.",
+    "optionB": "Honk continuously.",
+    "optionC": "Increase speed.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 5,
+    "question": "Why is wearing a seatbelt important?",
+    "image": "images/a/q5.jpg",
+    "optionA": "For decoration.",
+    "optionB": "To avoid traffic.",
+    "optionC": "To reduce injury during accidents.",
+    "optionD": "",
+    "correctAnswer": "C"
+  },
+  {
+    "id": 6,
+    "question": "What should you do when hearing an ambulance siren?",
+    "image": "images/a/q6.jpg",
+    "optionA": "Block the road.",
+    "optionB": "Give way safely.",
+    "optionC": "Race with it.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 7,
+    "question": "What does a stop sign indicate?",
+    "image": "images/a/q7.jpg",
+    "optionA": "Slow down only.",
+    "optionB": "Parking allowed.",
+    "optionC": "Come to a complete stop.",
+    "optionD": "",
+    "correctAnswer": "C"
+  },
+  {
+    "id": 8,
+    "question": "What should drivers avoid while driving?",
+    "image": "images/a/q8.jpg",
+    "optionA": "Using mobile phones.",
+    "optionB": "Watching the road.",
+    "optionC": "Holding the steering wheel.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 9,
+    "question": "What is the safest way to overtake another vehicle?",
+    "image": "images/a/q9.jpg",
+    "optionA": "From the left when clear.",
+    "optionB": "Without signaling.",
+    "optionC": "On sharp bends.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 10,
+    "question": "What should be checked before starting a journey?",
+    "image": "images/a/q10.jpg",
+    "optionA": "Fuel and brakes.",
+    "optionB": "Music volume only.",
+    "optionC": "Seat color.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 11,
+    "question": "What should you do when the road is slippery?",
+    "image": "images/a/q11.jpg",
+    "optionA": "Drive faster.",
+    "optionB": "Brake suddenly.",
+    "optionC": "Drive slowly and carefully.",
+    "optionD": "",
+    "correctAnswer": "C"
+  },
+  {
+    "id": 12,
+    "question": "Why should drivers maintain a safe distance?",
+    "image": "images/a/q12.jpg",
+    "optionA": "To avoid collisions.",
+    "optionB": "To block traffic.",
+    "optionC": "To save fuel only.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 13,
+    "question": "What should a driver do before reversing?",
+    "image": "images/a/q13.jpg",
+    "optionA": "Check surroundings carefully.",
+    "optionB": "Close mirrors.",
+    "optionC": "Accelerate hard.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 14,
+    "question": "What does a yellow traffic light mean?",
+    "image": "images/a/q14.jpg",
+    "optionA": "Stop if safe.",
+    "optionB": "Speed up always.",
+    "optionC": "Ignore the signal.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of road signs?",
+    "image": "images/a/q15.jpg",
+    "optionA": "Decoration only.",
+    "optionB": "Guide and warn drivers.",
+    "optionC": "Block the road.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 16,
+    "question": "What should a driver do at a railway crossing?",
+    "image": "images/a/q16.jpg",
+    "optionA": "Cross quickly without looking.",
+    "optionB": "Stop and check for trains.",
+    "optionC": "Honk continuously.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 17,
+    "question": "Why should indicators be used?",
+    "image": "images/a/q17.jpg",
+    "optionA": "To warn other drivers.",
+    "optionB": "To increase speed.",
+    "optionC": "To save battery.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 18,
+    "question": "What should you do if tired while driving?",
+    "image": "images/a/q18.jpg",
+    "optionA": "Continue driving fast.",
+    "optionB": "Take a rest.",
+    "optionC": "Turn off headlights.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 19,
+    "question": "What is the correct action at a roundabout?",
+    "image": "images/a/q19.jpg",
+    "optionA": "Give way to traffic already inside.",
+    "optionB": "Stop in the middle.",
+    "optionC": "Drive opposite direction.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 20,
+    "question": "What should you do during heavy rain?",
+    "image": "images/a/q20.jpg",
+    "optionA": "Increase speed.",
+    "optionB": "Use headlights and slow down.",
+    "optionC": "Ignore road markings.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 21,
+    "question": "What should drivers do before turning?",
+    "image": "images/a/q21.jpg",
+    "optionA": "Signal in advance.",
+    "optionB": "Close eyes.",
+    "optionC": "Accelerate suddenly.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 22,
+    "question": "Why are speed limits important?",
+    "image": "images/a/q22.jpg",
+    "optionA": "To reduce accidents.",
+    "optionB": "To waste time.",
+    "optionC": "To block roads.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 23,
+    "question": "What should a driver do when approaching a school zone?",
+    "image": "images/a/q23.jpg",
+    "optionA": "Drive carefully and slowly.",
+    "optionB": "Honk loudly.",
+    "optionC": "Increase speed.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 24,
+    "question": "What is the safest way to park a vehicle?",
+    "image": "images/a/q24.jpg",
+    "optionA": "Park without checking.",
+    "optionB": "Use handbrake properly.",
+    "optionC": "Leave engine running.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 25,
+    "question": "What should you do if another driver behaves aggressively?",
+    "image": "images/a/q25.jpg",
+    "optionA": "Race with them.",
+    "optionB": "Stay calm and avoid conflict.",
+    "optionC": "Block their vehicle.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 26,
+    "question": "What should you do before overtaking?",
+    "image": "images/a/q26.jpg",
+    "optionA": "Check mirrors and blind spots.",
+    "optionB": "Turn off indicators.",
+    "optionC": "Close your eyes.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 27,
+    "question": "What should be done if brakes fail?",
+    "image": "images/a/q27.jpg",
+    "optionA": "Panic immediately.",
+    "optionB": "Use lower gears and handbrake carefully.",
+    "optionC": "Accelerate harder.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 28,
+    "question": "Why should mirrors be adjusted properly?",
+    "image": "images/a/q28.jpg",
+    "optionA": "To improve visibility.",
+    "optionB": "For decoration.",
+    "optionC": "To reduce fuel use.",
+    "optionD": "",
+    "correctAnswer": "A"
+  },
+  {
+    "id": 29,
+    "question": "What should drivers do at night?",
+    "image": "images/a/q29.jpg",
+    "optionA": "Drive without lights.",
+    "optionB": "Use proper headlights.",
+    "optionC": "Ignore road signs.",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 30,
+    "question": "What should you do when approaching a curve?",
+    "image": "images/a/q30.jpg",
+    "optionA": "Slow down carefully.",
+    "optionB": "Accelerate sharply.",
+    "optionC": "Close mirrors.",
     "optionD": "",
     "correctAnswer": "A"
   }
 ]
+```
