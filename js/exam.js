@@ -228,3 +228,43 @@ function previousQuestion() {
         showQuestion(currentQuestion - 1);
     }
 }
+function finishExam() {
+
+    let correct = 0;
+
+    questions.forEach((q, index) => {
+
+        if (
+            userAnswers[index] ===
+            q.correctAnswer
+        ) {
+            correct++;
+        }
+    });
+
+    const wrong =
+        questions.length - correct;
+
+    sessionStorage.setItem(
+        "correctAnswers",
+        correct
+    );
+
+    sessionStorage.setItem(
+        "wrongAnswers",
+        wrong
+    );
+
+    sessionStorage.setItem(
+        "userAnswers",
+        JSON.stringify(userAnswers)
+    );
+
+    sessionStorage.setItem(
+        "questions",
+        JSON.stringify(questions)
+    );
+
+    window.location.href =
+        "result.html";
+}
