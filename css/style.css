@@ -489,51 +489,148 @@ header{
 }
 /* RESULT PAGE */
 
-.result-container{
-    width:900px;
-    margin:60px auto;
-    background:#fff;
-    padding:50px;
+.result-page{
+    width:1400px;
+    margin:30px auto;
+    padding:20px;
+}
+
+.result-header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.result-icon{
+    width:90px;
+    height:90px;
+    background:#17c653;
+    color:white;
+    border-radius:50%;
+    margin:auto;
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.result-header h1{
+    font-size:65px;
+    margin-top:20px;
+}
+
+.result-header p{
+    font-size:30px;
+    color:#666;
+}
+
+.result-card{
+    background:white;
+    border-radius:25px;
+    padding:40px;
+    display:flex;
+    gap:60px;
+    align-items:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.score-circle{
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    border:25px solid #17c653;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+}
+
+.score-circle h2{
+    font-size:70px;
+    color:#17c653;
+}
+
+.score-circle p{
+    text-align:center;
+    font-size:28px;
+}
+
+.result-info{
+    flex:1;
+}
+
+.result-info h1{
+    font-size:80px;
+    color:#17c653;
+}
+
+.result-info p{
+    font-size:28px;
+    color:#444;
+}
+
+.result-stats{
+    display:flex;
+    gap:80px;
+    margin-top:50px;
+}
+
+.result-stats h2{
+    font-size:55px;
+}
+
+.performance-card{
+    background:white;
+    border-radius:25px;
+    padding:35px;
+    margin-top:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.performance-card h2{
+    margin-bottom:30px;
+}
+
+.performance-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.performance-box{
+    background:#f7f7f7;
+    padding:40px;
     border-radius:20px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.1);
     text-align:center;
 }
 
-.result-container h1{
-    font-size:60px;
-    color:#2ecc71;
-    margin-bottom:20px;
+.performance-box h1{
+    font-size:70px;
 }
 
-.result-container h2{
-    font-size:35px;
-    margin-bottom:40px;
-}
-
-.result-box{
-    display:flex;
-    justify-content:center;
-    gap:100px;
-    margin-bottom:50px;
-}
-
-.result-box p{
-    font-size:28px;
-    font-weight:600;
+.performance-box p{
+    font-size:25px;
 }
 
 .result-buttons{
     display:flex;
     justify-content:center;
-    gap:20px;
+    gap:25px;
+    margin-top:35px;
 }
 
 .result-buttons button{
-    padding:15px 30px;
+    width:260px;
+    height:70px;
     border:none;
-    border-radius:10px;
-    background:#2ecc71;
+    border-radius:15px;
+    background:#17c653;
     color:white;
-    font-size:18px;
+    font-size:22px;
     cursor:pointer;
+}
+
+.result-buttons button:nth-child(2){
+    background:white;
+    color:#222;
+    border:1px solid #ddd;
 }
