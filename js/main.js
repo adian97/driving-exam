@@ -3,11 +3,25 @@ if (sessionStorage.getItem("loggedIn") !== "true") {
 }
 
 function goExam() {
-    window.location.href = "category.html";
+
+    sessionStorage.setItem(
+        "mode",
+        "exam"
+    );
+
+    window.location.href =
+        "category.html";
 }
 
 function goPractice() {
-    window.location.href = "practice.html";
+
+    sessionStorage.setItem(
+        "mode",
+        "practice"
+    );
+
+    window.location.href =
+        "exam.html";
 }
 
 function logout() {
