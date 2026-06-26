@@ -1,4 +1,3 @@
-alert("exam.js loaded");
 let questions = [];
 let currentQuestion = 0;
 
@@ -10,6 +9,9 @@ const mode =
 
 const category =
     sessionStorage.getItem("selectedCategory");
+
+console.log("MODE:", mode);
+console.log("CATEGORY:", category);
 
 if (mode === "exam") {
 
@@ -31,7 +33,8 @@ if (mode === "practice") {
 }
 
 function loadQuestions(file) {
-    console.log("Loading:", file);
+    
+    console.log("Loading file:", file);
 
     fetch(file)
         .then(response => response.json())
@@ -42,6 +45,9 @@ function loadQuestions(file) {
             createQuestionNumbers();
             showQuestion(0);
         });
+    .catch(error => {
+    console.log(error);
+});
 }
 
 async function loadAllQuestions() {
