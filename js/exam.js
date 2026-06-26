@@ -44,7 +44,7 @@ function loadQuestions(file) {
 
             createQuestionNumbers();
             showQuestion(0);
-        });
+        })
     .catch(error => {
     console.log(error);
 });
