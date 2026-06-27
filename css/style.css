@@ -809,13 +809,13 @@ header{
 }
 
 .category-header h1{
-    font-size:60px;
+    font-size:40px;
     color:#08121f;
     margin-bottom:20px;
 }
 
 .category-header p{
-    font-size:24px;
+    font-size:20px;
     color:#667085;
     line-height:1.5;
 }
