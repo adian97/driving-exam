@@ -764,3 +764,179 @@ header{
 .review-option.wrong .review-icon{
     color:#ff4d4f;
 }
+/* ==========================
+   CATEGORY PAGE
+========================== */
+
+.category-body{
+    background:#f5f7fa;
+    padding:15px;
+}
+
+.category-page{
+    background:#fff;
+    border-radius:30px;
+    min-height:95vh;
+    box-shadow:0 10px 35px rgba(0,0,0,0.06);
+    overflow:hidden;
+}
+
+/* TOP */
+
+.category-top{
+    height:90px;
+    border-bottom:1px solid #eee;
+    padding:0 35px;
+
+    display:flex;
+    align-items:center;
+}
+
+.category-logo{
+    font-size:28px;
+    font-weight:700;
+}
+
+.category-logo span{
+    color:#16a34a;
+}
+
+/* HEADER */
+
+.category-header{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.category-header h1{
+    font-size:60px;
+    color:#08121f;
+    margin-bottom:20px;
+}
+
+.category-header p{
+    font-size:24px;
+    color:#667085;
+    line-height:1.5;
+}
+
+/* CARDS */
+
+.category-cards{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:0 40px;
+}
+
+.category-card{
+    width:380px;
+    background:#fff;
+    border-radius:30px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+}
+
+.category-image{
+    width:100%;
+    border-radius:25px;
+    margin-bottom:25px;
+}
+
+.category-title{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.category-desc{
+    font-size:22px;
+    color:#667085;
+    line-height:1.5;
+    margin-bottom:35px;
+}
+
+/* BUTTON */
+
+.category-btn{
+    width:100%;
+    height:70px;
+    border-radius:40px;
+    border:2px solid;
+    background:#fff;
+    font-size:22px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+/* COLORS */
+
+.green{
+    color:#16a34a;
+}
+
+.green-btn{
+    color:#16a34a;
+    border-color:#16a34a;
+}
+
+.blue{
+    color:#2563eb;
+}
+
+.blue-btn{
+    color:#2563eb;
+    border-color:#2563eb;
+}
+
+.purple{
+    color:#7c3aed;
+}
+
+.purple-btn{
+    color:#7c3aed;
+    border-color:#7c3aed;
+}
+
+/* BOTTOM CARD */
+
+.category-info{
+    margin:50px;
+    padding:35px;
+    border-radius:25px;
+    background:#f8faf9;
+
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.category-info-icon{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#22c55e;
+    color:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:35px;
+}
+
+.category-info h3{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.category-info p{
+    font-size:20px;
+    color:#667085;
+}
