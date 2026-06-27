@@ -108,5 +108,115 @@
     "optionC": "",
     "optionD": "",
     "correctAnswer": "Verdadeiro"
+  },
+  {
+    "id": 12,
+    "question": "Quando se pode dizer que a comunicação tem sucesso?",
+    "image": "images/a/q12.jpg",
+    "optionA": "Quando se fala muito rápido.",
+    "optionB": "Quando a mensagem é compreendida.",
+    "optionC": "Quando ninguém responde.",
+    "optionD": "",
+    "correctAnswer": "Quando a mensagem é compreendida."
+  },
+  {
+    "id": 13,
+    "question": "O motorista deve sinalizar a saída de uma rotunda:",
+    "image": "images/a/q13.jpg",
+    "optionA": "Ao aproximar-se da saída.",
+    "optionB": "Não é necessário sinalizar.",
+    "optionC": "Apenas se houver trânsito intenso.",
+    "optionD": "",
+    "correctAnswer": "Ao aproximar-se da saída."
+  },
+  {
+    "id": 14,
+    "question": "A velocidade deve ser ajustada:",
+    "image": "images/a/q14.jpg",
+    "optionA": "Apenas ao limite máximo permitido.",
+    "optionB": "Às condições da estrada e do trânsito.",
+    "optionC": "À vontade do condutor.",
+    "optionD": "",
+    "correctAnswer": "Às condições da estrada e do trânsito."
+  },
+  {
+    "id": 15,
+    "question": "Um motorista de TVDE pode conduzir com uma taxa de alcoolemia de 0,2 g/l.",
+    "image": "images/a/q15.jpg",
+    "optionA": "Sim, se estiver em boas condições físicas.",
+    "optionB": "Não.",
+    "optionC": "Sim, porque é um valor permitido.",
+    "optionD": "",
+    "correctAnswer": "Não."
+  },
+  {
+    "id": 16,
+    "question": "O que deve fazer ao conduzir em zonas de vento forte?",
+    "image": "images/a/q16.jpg",
+    "optionA": "Virar o volante no sentido contrário ao do vento.",
+    "optionB": "Aumentar a velocidade para atravessar a zona rapidamente.",
+    "optionC": "Reduzir a velocidade e manter firme o controlo do volante.",
+    "optionD": "",
+    "correctAnswer": "Reduzir a velocidade e manter firme o controlo do volante."
+  },
+  {
+    "id": 17,
+    "question": "Para se tornar motorista TVDE, tem de ter carta de condução da categoria B há mais de:",
+    "image": "images/a/q17.jpg",
+    "optionA": "1 ano.",
+    "optionB": "2 anos.",
+    "optionC": "3 anos.",
+    "optionD": "",
+    "correctAnswer": "3 anos."
+  },
+  {
+    "id": 18,
+    "question": "O que deve fazer se houver um incêndio no motor do veículo?",
+    "image": "images/a/q18.jpg",
+    "optionA": "Abrir o capot rapidamente e apagar as chamas com água.",
+    "optionB": "Usar o extintor e apontar à base das chamas.",
+    "optionC": "Esperar que o fogo se apague.",
+    "optionD": "",
+    "correctAnswer": "Usar o extintor e apontar à base das chamas."
+  },
+  {
+    "id": 19,
+    "question": "O que deve fazer após utilizar um extintor?",
+    "image": "images/a/q19.jpg",
+    "optionA": "Recarregá-lo ou substituí-lo por um novo.",
+    "optionB": "Guardá-lo no veículo, para a próxima utilização.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "Recarregá-lo ou substituí-lo por um novo."
+  },
+  {
+    "id": 20,
+    "question": "Quando deve usar o colete retrorrefletor?",
+    "image": "images/a/q20.jpg",
+    "optionA": "Sempre que sair do veículo para sinalizar ou reparar.",
+    "optionB": "Somente em locais com pouca visibilidade.",
+    "optionC": "Apenas em estradas movimentadas.",
+    "optionD": "",
+    "correctAnswer": "Sempre que sair do veículo para sinalizar ou reparar."
+  },
+  {
+    "id": 21,
+    "question": "No primeiro contacto com uma vítima de um acidente, o que deve fazer primeiro?",
+    "image": "images/a/q21.jpg",
+    "optionA": "Verificar se respira e se tem pulsação.",
+    "optionB": "Retirar a vítima do veículo imediatamente.",
+    "optionC": "Procurar por ferimentos visíveis.",
+    "optionD": "",
+    "correctAnswer": "Verificar se respira e se tem pulsação."
+  },
+  {
+    "id": 22,
+    "question": "Em caso de acidente com o seu veículo, deve:",
+    "image": "images/a/q22.jpg",
+    "optionA": "Sair rapidamente do veículo sem avisar outros condutores.",
+    "optionB": "Garantir a segurança no local, sinalizar e ligar para o 112.",
+    "optionC": "Resolver a situação sozinho, sem pedir ajuda.",
+    "optionD": "",
+    "correctAnswer": "Garantir a segurança no local, sinalizar e ligar para o 112."
   }
 ]
