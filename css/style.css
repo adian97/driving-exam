@@ -526,16 +526,16 @@ header{
 .result-card{
     background:#d1d8e3;
     border-radius:25px;
-    padding:30px;
+    padding:20px;
     display:flex;
-    gap:40px;
+    gap:25px;
     align-items:center;
     box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
 
 .score-circle{
-    width:200px;
-    height:200px;
+    width:160px;
+    height:160px;
     border-radius:50%;
     border:25px solid #17c653;
     display:flex;
@@ -559,12 +559,12 @@ header{
 }
 
 .result-info h1{
-    font-size:60px;
+    font-size:45px;
     color:#17c653;
 }
 
 .result-info p{
-    font-size:24px;
+    font-size:20px;
     color:#444;
 }
 .pass-mark{
@@ -575,12 +575,12 @@ header{
 
 .result-stats{
     display:flex;
-    gap:80px;
-    margin-top:50px;
+    gap:50px;
+    margin-top:30px;
 }
 
 .result-stats h2{
-    font-size:55px;
+    font-size:40px;
 }
 
 .performance-card{
@@ -603,17 +603,17 @@ header{
 
 .performance-box{
     background:#f7f7f7;
-    padding:25px;
+    padding:18px;
     border-radius:20px;
     text-align:center;
 }
 
 .performance-box h1{
-    font-size:50px;
+    font-size:35px;
 }
 
 .performance-box p{
-    font-size:25px;
+    font-size:18px;
 }
 
 .result-buttons{
@@ -624,8 +624,8 @@ header{
 }
 
 .result-buttons button{
-    width:220px;
-    height:60px;
+    width:180px;
+    height:50px;
     border:none;
     border-radius:15px;
     background:#17c653;
