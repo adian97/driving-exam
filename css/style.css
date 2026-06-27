@@ -831,10 +831,10 @@ header{
 }
 
 .category-card{
-    width:380px;
+    width:300px;
     background:#d1d8e3;
     border-radius:30px;
-    padding:25px;
+    padding:20px;
     text-align:center;
     box-shadow:0 10px 35px rgba(0,0,0,0.08);
     transition:.3s;
