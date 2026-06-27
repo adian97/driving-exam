@@ -491,7 +491,7 @@ header{
 
 .result-page{
     width:92%;
-    max-width:1200px;
+    max-width:1000px;
     margin:20px auto;
     padding:10px;
 }
@@ -501,8 +501,8 @@ header{
 }
 
 .result-icon{
-    width:90px;
-    height:90px;
+    width:70px;
+    height:70px;
     background:#17c653;
     color:white;
     border-radius:50%;
@@ -524,7 +524,7 @@ header{
 }
 
 .result-card{
-    background:white;
+    background:#d1d8e3;
     border-radius:25px;
     padding:30px;
     display:flex;
@@ -584,7 +584,7 @@ header{
 }
 
 .performance-card{
-    background:white;
+    background:#d1d8e3;
     border-radius:25px;
     padding:30px;
     margin-top:20px;
