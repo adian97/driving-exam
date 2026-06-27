@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "A sinalização existente obriga o motorista a seguir em frente?",
-    "image": "images/a/q11.jpg",
+    "image": "images/a/q1.jpg",
     "optionA": "Sim.",
     "optionB": "Não.",
     "optionC": "",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "question": "Os sinais de proibição indicam:",
-    "image": "images/a/q12.jpg",
+    "image": "images/a/q2.jpg",
     "optionA": "Informações úteis.",
     "optionB": "Obrigações a cumprir.",
     "optionC": "Restrições ou limites.",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "question": "Quando o piso está escorregadio, o motorista deve:",
-    "image": "images/a/q13.jpg",
+    "image": "images/a/q3.jpg",
     "optionA": "Travar bruscamente.",
     "optionB": "Reduzir a velocidade e evitar manobras bruscas.",
     "optionC": "Aumentar a velocidade.",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "question": "A condução sob a influência do álcool provoca no condutor a diminuição dos reflexos.",
-    "image": "images/a/q14.jpg",
+    "image": "images/a/q4.jpg",
     "optionA": "Falso",
     "optionB": "Verdadeiro",
     "optionC": "",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "question": "No próximo entroncamento, o motorista deve ceder a passagem?",
-    "image": "images/a/q15.jpg",
+    "image": "images/a/q5.jpg",
     "optionA": "Sim.",
     "optionB": "Não.",
     "optionC": "",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "question": "Quem deve avançar primeiro num cruzamento sem sinalização?",
-    "image": "images/a/q16.jpg",
+    "image": "images/a/q6.jpg",
     "optionA": "O veículo mais rápido.",
     "optionB": "O veículo que circula pela esquerda.",
     "optionC": "O veículo que circula pela direita.",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "question": "Conduzir com chuva tem como resultado:",
-    "image": "images/a/q17.jpg",
+    "image": "images/a/q7.jpg",
     "optionA": "Maior aderência dos pneus ao piso.",
     "optionB": "A redução da visibilidade.",
     "optionC": "",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "question": "O que é obrigatório para o transporte de passageiros com mobilidade reduzida?",
-    "image": "images/a/q18.jpg",
+    "image": "images/a/q8.jpg",
     "optionA": "Um veículo com capacidade para transportar cadeiras de rodas.",
     "optionB": "Um veículo elétrico ou híbrido.",
     "optionC": "Um motorista com formação adicional.",
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "question": "Os serviços de TVDE podem ser pagos em dinheiro ou cartão de crédito.",
-    "image": "images/a/q19.jpg",
+    "image": "images/a/q9.jpg",
     "optionA": "Verdadeiro",
     "optionB": "Falso",
     "optionC": "",
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "question": "Qual é a idade máxima permitida para veículos utilizados no serviço TVDE?",
-    "image": "images/a/q20.jpg",
+    "image": "images/a/q10.jpg",
     "optionA": "5 anos",
     "optionB": "10 anos",
     "optionC": "7 anos",
@@ -102,7 +102,7 @@
   {
     "id": 11,
     "question": "O tempo máximo permitido para condução de motoristas TVDE é de 10 horas num período de 24 horas.",
-    "image": "images/a/q21.jpg",
+    "image": "images/a/q11.jpg",
     "optionA": "Verdadeiro",
     "optionB": "Falso",
     "optionC": "",
