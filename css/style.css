@@ -545,13 +545,13 @@ header{
 }
 
 .score-circle h2{
-    font-size:35px;
+    font-size:25px;
     color:#17c653;
 }
 
 .score-circle p{
     text-align:center;
-    font-size:24px;
+    font-size:20px;
 }
 
 .result-info{
