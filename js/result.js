@@ -114,3 +114,49 @@ function goHome() {
     window.location.href =
         "main.html";
 }
+/* SAVE STATISTICS */
+
+let examsTaken =
+    Number(
+        localStorage.getItem(
+            "examsTaken"
+        )
+    ) || 0;
+
+let totalScore =
+    Number(
+        localStorage.getItem(
+            "totalScore"
+        )
+    ) || 0;
+
+let bestScore =
+    Number(
+        localStorage.getItem(
+            "bestScore"
+        )
+    ) || 0;
+
+examsTaken++;
+
+totalScore =
+    totalScore + score;
+
+if (score > bestScore) {
+    bestScore = score;
+}
+
+localStorage.setItem(
+    "examsTaken",
+    examsTaken
+);
+
+localStorage.setItem(
+    "totalScore",
+    totalScore
+);
+
+localStorage.setItem(
+    "bestScore",
+    bestScore
+);
