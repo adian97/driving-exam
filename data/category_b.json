@@ -1,2 +1,11 @@
-
-[]
+[
+  {
+    "id": 1,
+    "question": "What should a driver do when approaching a pedestrian crossing?",
+    "image": "images/b/q1.jpg",
+    "optionA": "Increase speed.",
+    "optionB": "Slow down and be prepared to stop.",
+    "optionC": "Sound the horn continuously.",
+    "correctAnswer": "B"
+  }
+]
