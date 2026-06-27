@@ -218,5 +218,75 @@
     "optionC": "Resolver a situação sozinho, sem pedir ajuda.",
     "optionD": "",
     "correctAnswer": "Garantir a segurança no local, sinalizar e ligar para o 112."
+  },
+  {
+    "id": 23,
+    "question": "Um motorista deve comportar-se de forma?",
+    "image": "images/a/q23.jpg",
+    "optionA": "Agressiva.",
+    "optionB": "Passiva.",
+    "optionC": "Assertiva.",
+    "optionD": "",
+    "correctAnswer": "Assertiva."
+  },
+  {
+    "id": 24,
+    "question": "Na comunicação com os passageiros é importante:",
+    "image": "images/a/q24.jpg",
+    "optionA": "Fazer perguntas durante toda a conversa.",
+    "optionB": "Ouvir para compreender.",
+    "optionC": "Falar rapidamente para terminar a conversa.",
+    "optionD": "",
+    "correctAnswer": "Ouvir para compreender."
+  },
+  {
+    "id": 25,
+    "question": "Quando se pode dizer que a comunicação tem sucesso?",
+    "image": "images/a/q25.jpg",
+    "optionA": "Quando se fala muito rápido.",
+    "optionB": "Quando a mensagem é compreendida.",
+    "optionC": "Quando ninguém responde.",
+    "optionD": "",
+    "correctAnswer": "Quando a mensagem é compreendida."
+  },
+  {
+    "id": 26,
+    "question": "Chamamos feedback:",
+    "image": "images/a/q26.jpg",
+    "optionA": "À resposta ou reação da pessoa à mensagem.",
+    "optionB": "Ao início de uma conversa.",
+    "optionC": "À forma como utilizamos o tom de voz.",
+    "optionD": "",
+    "correctAnswer": "À resposta ou reação da pessoa à mensagem."
+  },
+  {
+    "id": 27,
+    "question": "Quando é permitido ultrapassar pela direita?",
+    "image": "images/a/q27.jpg",
+    "optionA": "Quando o veículo da frente circula lentamente.",
+    "optionB": "Quando o veículo da frente sinaliza que vai virar à esquerda.",
+    "optionC": "Em qualquer situação.",
+    "optionD": "",
+    "correctAnswer": "Quando o veículo da frente sinaliza que vai virar à esquerda."
+  },
+  {
+    "id": 28,
+    "question": "O que deve fazer antes de iniciar uma ultrapassagem?",
+    "image": "images/a/q28.jpg",
+    "optionA": "Verificar se há espaço suficiente e visibilidade.",
+    "optionB": "Aumentar a velocidade.",
+    "optionC": "Aproximar-se ao máximo do veículo da frente.",
+    "optionD": "",
+    "correctAnswer": "Verificar se há espaço suficiente e visibilidade."
+  },
+  {
+    "id": 29,
+    "question": "Ao circular numa rotunda, o motorista deve saber que:",
+    "image": "images/a/q29.jpg",
+    "optionA": "Todos os veículos entram ao mesmo tempo.",
+    "optionB": "Os veículos em serviço de urgência devem ceder a passagem aos veículos que circulam na rotunda.",
+    "optionC": "Deve ceder a passagem aos veículos em serviço de urgência que entram na rotunda.",
+    "optionD": "",
+    "correctAnswer": "Deve ceder a passagem aos veículos em serviço de urgência que entram na rotunda."
   }
 ]
