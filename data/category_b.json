@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "Qual a importância do tom de voz na comunicação?",
-    "image": "images/a/q1.jpg",
+    "image": "images/a/q29.jpg",
     "optionA": "Ajuda a transmitir a mensagem de forma clara.",
     "optionB": "Dificulta a compreensão da mensagem.",
     "optionC": "",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "question": "O primeiro contacto com o motorista ajuda a criar uma boa impressão sobre o serviço.",
-    "image": "images/a/q2.jpg",
+    "image": "images/a/q30.jpg",
     "optionA": "Verdadeiro.",
     "optionB": "Falso.",
     "optionC": "",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "question": "Como agir com um passageiro impaciente ou agressivo?",
-    "image": "images/a/q3.jpg",
+    "image": "images/a/q31.jpg",
     "optionA": "Responder com a mesma agressividade.",
     "optionB": "Manter a calma, ser cordial e evitar o conflito.",
     "optionC": "Ignorar o passageiro e continuar a viagem.",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "question": "Em ultrapassagem, uma bicicleta deve manter uma distância lateral:",
-    "image": "images/a/q4.jpg",
+    "image": "images/a/q32.jpg",
     "optionA": "Sim, de 1,5 metros.",
     "optionB": "Sim, de 1 metro.",
     "optionC": "Não.",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "question": "Para mudar de via de circulação dentro de uma rotunda, o motorista deve:",
-    "image": "images/a/q5.jpg",
+    "image": "images/a/q33.jpg",
     "optionA": "Mudar de via sem sinalizar.",
     "optionB": "Sinalizar e garantir que a manobra é segura.",
     "optionC": "Mudar rapidamente para sair mais depressa.",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "question": "O que deve fazer em condições de nevoeiro?",
-    "image": "images/a/q6.jpg",
+    "image": "images/a/q34.jpg",
     "optionA": "Usar as luzes de nevoeiro e ajustar a velocidade.",
     "optionB": "Aumentar a velocidade para sair da área com nevoeiro.",
     "optionC": "Manter as luzes desligadas para economizar energia.",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "question": "Quando o piso está escorregadio, o motorista deve:",
-    "image": "images/a/q7.jpg",
+    "image": "images/a/35.jpg",
     "optionA": "Travar bruscamente.",
     "optionB": "Reduzir a velocidade e evitar manobras bruscas.",
     "optionC": "Aumentar a velocidade.",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "question": "Quando um peão atravessa numa passagem para peões, o motorista deve:",
-    "image": "images/a/q8.jpg",
+    "image": "images/a/q36.jpg",
     "optionA": "Reduzir a velocidade, mas continuar.",
     "optionB": "Acelerar para passar antes do peão.",
     "optionC": "Parar e deixar o peão atravessar.",
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "question": "O sinal indica:",
-    "image": "images/a/q9.jpg",
+    "image": "images/a/q37.jpg",
     "optionA": "Estacionamento autorizado.",
     "optionB": "Estacionamento proibido.",
     "optionC": "Apenas paragem permitida.",
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "question": "Quem é responsável pela fiscalização do cumprimento das regras no serviço TVDE?",
-    "image": "images/a/q10.jpg",
+    "image": "images/a/q38.jpg",
     "optionA": "GNR e IMT.",
     "optionB": "GNR e PSP.",
     "optionC": "PSP, GNR e IMT.",
@@ -102,7 +102,7 @@
   {
     "id": 11,
     "question": "O tempo de espera para passageiros com mobilidade reduzida deve ser:",
-    "image": "images/a/q11.jpg",
+    "image": "images/a/q39.jpg",
     "optionA": "Superior a 30 minutos.",
     "optionB": "Superior a 15 minutos.",
     "optionC": "Inferior a 15 minutos.",
