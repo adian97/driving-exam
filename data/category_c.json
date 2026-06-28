@@ -168,5 +168,26 @@
     "optionC": "",
     "optionD": "",
     "correctAnswer": "B"
+  },
+  [
+  {
+    "id": 71,
+    "question": "Veículos usados no serviço TVDE podem ter matrícula estrangeira, desde que sejam autorizados pelo IMT.",
+    "image": "images/a/q18.jpg",
+    "optionA": "Sim.",
+    "optionB": "Não.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 72,
+    "question": "O serviço de TVDE só pode ser contratado através de plataforma eletrónica.",
+    "image": "images/a/q19.jpg",
+    "optionA": "Verdadeiro",
+    "optionB": "Falso.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "A"
   }
 ]
