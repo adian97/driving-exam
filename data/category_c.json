@@ -158,5 +158,15 @@
     "optionC": "",
     "optionD": "",
     "correctAnswer": "Apenas para sair na primeira saída."
+  },
+  {
+    "id": 17,
+    "question": "Os motoristas TVDE podem recolher passageiros diretamente na via pública, sem recurso a plataforma eletrónica?",
+    "image": "images/a/q17.jpg",
+    "optionA": "Sim.",
+    "optionB": "Não.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "Não."
   }
 ]
