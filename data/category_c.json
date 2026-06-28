@@ -78,5 +78,85 @@
     "optionC": "",
     "optionD": "",
     "correctAnswer": "Verdadeiro"
+  },
+  {
+    "id": 9,
+    "question": "Qual a velocidade máxima permitida a um automóvel ligeiro dentro de uma localidade?",
+    "image": "images/a/q9.jpg",
+    "optionA": "50 km/h",
+    "optionB": "60 km/h",
+    "optionC": "90 km/h",
+    "optionD": "",
+    "correctAnswer": "50 km/h"
+  },
+  {
+    "id": 10,
+    "question": "O que deve fazer perante o sinal?",
+    "image": "images/a/q10.jpg",
+    "optionA": "Ceder a passagem a todos os veículos.",
+    "optionB": "Avançar em primeiro lugar.",
+    "optionC": "Manter a velocidade.",
+    "optionD": "",
+    "correctAnswer": "Ceder a passagem a todos os veículos."
+  },
+  {
+    "id": 11,
+    "question": "O que deve respeitar em primeiro lugar?",
+    "image": "images/a/q11.jpg",
+    "optionA": "Os sinais luminosos.",
+    "optionB": "As marcas rodoviárias.",
+    "optionC": "As ordens da polícia.",
+    "optionD": "",
+    "correctAnswer": "As ordens da polícia."
+  },
+  {
+    "id": 12,
+    "question": "Em caso de queimadura deve:",
+    "image": "images/a/q12.jpg",
+    "optionA": "Lavar a zona afetada com água quente.",
+    "optionB": "Furar as bolhas existentes.",
+    "optionC": "Evitar tocar diretamente na área queimada.",
+    "optionD": "",
+    "correctAnswer": "Evitar tocar diretamente na área queimada."
+  },
+  {
+    "id": 13,
+    "question": "Uma condução defensiva é:",
+    "image": "images/a/q13.jpg",
+    "optionA": "Estar atento aos outros condutores, antecipando situações de risco.",
+    "optionB": "Conduzir sempre a alta velocidade.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "Estar atento aos outros condutores, antecipando situações de risco."
+  },
+  {
+    "id": 14,
+    "question": "Para sinalizar corretamente o local de um acidente, o motorista deve:",
+    "image": "images/a/q14.jpg",
+    "optionA": "Ligar as luzes de perigo, vestir o colete refletor e colocar o triângulo de pré-sinalização de perigo.",
+    "optionB": "Abandonar o local do acidente.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "Ligar as luzes de perigo, vestir o colete refletor e colocar o triângulo de pré-sinalização de perigo."
+  },
+  {
+    "id": 15,
+    "question": "Neste local, posso transitar a 50 km/h?",
+    "image": "images/a/q15.jpg",
+    "optionA": "Não, porque a sinalização vertical o proíbe.",
+    "optionB": "Sim, porque dentro das localidades esta é a velocidade mínima obrigatória.",
+    "optionC": "Sim, porque o pavimento está em boas condições.",
+    "optionD": "",
+    "correctAnswer": "Sim, porque o pavimento está em boas condições."
+  },
+  {
+    "id": 16,
+    "question": "Em rotundas, pode circular na via mais à direita:",
+    "image": "images/a/q16.jpg",
+    "optionA": "Apenas para sair na primeira saída.",
+    "optionB": "Sempre, independentemente da saída.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "Apenas para sair na primeira saída."
   }
 ]
