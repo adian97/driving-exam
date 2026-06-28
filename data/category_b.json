@@ -7,8 +7,7 @@
     "optionB": "Dificulta a compreensão da mensagem.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Ajuda a transmitir a mensagem de forma clara."
-  },
+    "correctAnswer": "A"
   {
     "id": 31,
     "question": "O primeiro contacto com o motorista ajuda a criar uma boa impressão sobre o serviço.",
@@ -17,7 +16,7 @@
     "optionB": "Falso.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Verdadeiro."
+    "correctAnswer": "A"
   },
   {
     "id": 32,
@@ -27,7 +26,7 @@
     "optionB": "Manter a calma, ser cordial e evitar o conflito.",
     "optionC": "Ignorar o passageiro e continuar a viagem.",
     "optionD": "",
-    "correctAnswer": "Manter a calma, ser cordial e evitar o conflito."
+    "correctAnswer": "B"
   },
   {
     "id": 33,
@@ -37,7 +36,7 @@
     "optionB": "Sim, de 1 metro.",
     "optionC": "Não.",
     "optionD": "",
-    "correctAnswer": "Sim, de 1,5 metros."
+    "correctAnswer": "A"
   },
   {
     "id": 34,
@@ -47,7 +46,7 @@
     "optionB": "Sinalizar e garantir que a manobra é segura.",
     "optionC": "Mudar rapidamente para sair mais depressa.",
     "optionD": "",
-    "correctAnswer": "Sinalizar e garantir que a manobra é segura."
+    "correctAnswer": "B"
   },
   {
     "id": 35,
@@ -57,7 +56,7 @@
     "optionB": "Aumentar a velocidade para sair da área com nevoeiro.",
     "optionC": "Manter as luzes desligadas para economizar energia.",
     "optionD": "",
-    "correctAnswer": "Usar as luzes de nevoeiro e ajustar a velocidade."
+    "correctAnswer": "A"
   },
   {
     "id": 36,
@@ -67,7 +66,7 @@
     "optionB": "Reduzir a velocidade e evitar manobras bruscas.",
     "optionC": "Aumentar a velocidade.",
     "optionD": "",
-    "correctAnswer": "Reduzir a velocidade e evitar manobras bruscas."
+    "correctAnswer": "B"
   },
   {
     "id": 37,
@@ -77,7 +76,7 @@
     "optionB": "Acelerar para passar antes do peão.",
     "optionC": "Parar e deixar o peão atravessar.",
     "optionD": "",
-    "correctAnswer": "Parar e deixar o peão atravessar."
+    "correctAnswer": "C"
   },
   {
     "id": 38,
@@ -87,7 +86,7 @@
     "optionB": "Estacionamento proibido.",
     "optionC": "Apenas paragem permitida.",
     "optionD": "",
-    "correctAnswer": "Estacionamento proibido."
+    "correctAnswer": "B"
   },
   {
     "id": 39,
@@ -97,7 +96,7 @@
     "optionB": "GNR e PSP.",
     "optionC": "PSP, GNR e IMT.",
     "optionD": "",
-    "correctAnswer": "PSP, GNR e IMT."
+    "correctAnswer": "C"
   },
   {
     "id": 40,
@@ -107,7 +106,7 @@
     "optionB": "Superior a 15 minutos.",
     "optionC": "Inferior a 15 minutos.",
     "optionD": "",
-    "correctAnswer": "Inferior a 15 minutos."
+    "correctAnswer": "C"
   },
   {
     "id": 41,
@@ -117,7 +116,7 @@
     "optionB": "9 lugares, incluindo o motorista.",
     "optionC": "12 lugares, incluindo o motorista.",
     "optionD": "",
-    "correctAnswer": "9 lugares, incluindo o motorista."
+    "correctAnswer": "B"
   },
   {
     "id": 42,
@@ -127,7 +126,7 @@
     "optionB": "Falar ou escrever para transmitir uma mensagem.",
     "optionC": "Ficar em silêncio.",
     "optionD": "",
-    "correctAnswer": "Falar ou escrever para transmitir uma mensagem."
+    "correctAnswer": "B"
   },
   {
     "id": 43,
@@ -137,7 +136,7 @@
     "optionB": "Parar obrigatoriamente antes de avançar.",
     "optionC": "Reduzir a velocidade.",
     "optionD": "",
-    "correctAnswer": "Parar obrigatoriamente antes de avançar."
+    "correctAnswer": "B"
   },
   {
     "id": 44,
@@ -147,7 +146,7 @@
     "optionB": "Conduzir de forma eficiente, reduzindo o consumo de combustível e poluição.",
     "optionC": "Manter a velocidade máxima para chegar rapidamente ao destino.",
     "optionD": "",
-    "correctAnswer": "Conduzir de forma eficiente, reduzindo o consumo de combustível e poluição."
+    "correctAnswer": "B"
   },
   {
     "id": 45,
@@ -157,7 +156,7 @@
     "optionB": "Quando o veículo é lento.",
     "optionC": "Em autoestradas.",
     "optionD": "",
-    "correctAnswer": "Em lombas ou cruzamentos sem visibilidade."
+    "correctAnswer": "A"
   },
   {
     "id": 46,
@@ -167,7 +166,7 @@
     "optionB": "Avançar sem ceder passagem.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Ceder a passagem a todos os veículos e peões na via pública."
+    "correctAnswer": "A"
   },
   {
     "id": 47,
@@ -177,7 +176,7 @@
     "optionB": "Travar bruscamente.",
     "optionC": "Colocar correntes nos pneus e circular devagar.",
     "optionD": "",
-    "correctAnswer": "Colocar correntes nos pneus e circular devagar."
+    "correctAnswer": "C"
   },
   {
     "id": 48,
@@ -187,7 +186,7 @@
     "optionB": "Retangulares com fundo verde.",
     "optionC": "Triangulares com borda vermelha.",
     "optionD": "",
-    "correctAnswer": "Circulares com fundo azul."
+    "correctAnswer": "A"
   },
   {
     "id": 49,
@@ -197,7 +196,7 @@
     "optionB": "É proibido ultrapassar em curvas com visibilidade reduzida.",
     "optionC": "Passar rapidamente antes que outro veículo chegue.",
     "optionD": "",
-    "correctAnswer": "É proibido ultrapassar em curvas com visibilidade reduzida."
+    "correctAnswer": "B"
   },
   {
     "id": 50,
@@ -207,7 +206,7 @@
     "optionB": "Logo após concluir a manobra.",
     "optionC": "Assim que o veículo ultrapassado fique visível no retrovisor.",
     "optionD": "",
-    "correctAnswer": "Assim que o veículo ultrapassado fique visível no retrovisor."
+    "correctAnswer": "C"
   },
   {
     "id": 51,
@@ -217,7 +216,7 @@
     "optionB": "Localização exata, tipo de acidente e número de vítimas.",
     "optionC": "A cor dos veículos envolvidos no acidente.",
     "optionD": "",
-    "correctAnswer": "Localização exata, tipo de acidente e número de vítimas."
+    "correctAnswer": "B"
   },
   {
     "id": 52,
@@ -227,7 +226,7 @@
     "optionB": "Deve acelerar.",
     "optionC": "Pode passar, mas com cuidado.",
     "optionD": "",
-    "correctAnswer": "Pode passar, mas com cuidado."
+    "correctAnswer": "C"
   },
   {
     "id": 53,
@@ -237,6 +236,6 @@
     "optionB": "Parar, socorrer e alertar.",
     "optionC": "Prevenir, alertar e socorrer.",
     "optionD": "",
-    "correctAnswer": "Prevenir, alertar e socorrer."
+    "correctAnswer": "C"
   }
 ]
