@@ -1,10 +1,82 @@
 [
   {
     "id": 1,
-    "question": "Before driving a heavy vehicle, what should the driver check?",
-    "image": "images/c/q1.jpg",
-    "optionA": "The vehicle's brakes and tires.",
-    "optionB": "Only the radio.",
-    "correctAnswer": "A"
+    "question": "Um veículo usado no serviço TVDE deve passar por uma inspeção técnica:",
+    "image": "images/a/q1.jpg",
+    "optionA": "1 ano após a matrícula e, depois, todos os anos.",
+    "optionB": "2 anos após a matrícula e, depois, de dois em dois anos.",
+    "optionC": "No prazo estipulado pelo IMT.",
+    "optionD": "",
+    "correctAnswer": "1 ano após a matrícula e, depois, todos os anos."
+  },
+  {
+    "id": 2,
+    "question": "Quando a intensidade do trânsito aumenta, a velocidade deve:",
+    "image": "images/a/q2.jpg",
+    "optionA": "Diminuir.",
+    "optionB": "Aumentar.",
+    "optionC": "Ser mantida.",
+    "optionD": "",
+    "correctAnswer": "Diminuir."
+  },
+  {
+    "id": 3,
+    "question": "A distância de travagem varia com:",
+    "image": "images/a/q3.jpg",
+    "optionA": "As condições atmosféricas.",
+    "optionB": "A largura da via.",
+    "optionC": "A sinalização vertical existente no local.",
+    "optionD": "",
+    "correctAnswer": "As condições atmosféricas."
+  },
+  {
+    "id": 4,
+    "question": "Um motorista tem um comportamento profissional quando:",
+    "image": "images/a/q4.jpg",
+    "optionA": "É apressado e impaciente durante a condução.",
+    "optionB": "Ignora os pedidos dos passageiros.",
+    "optionC": "É educado, respeita os passageiros e atende às suas necessidades.",
+    "optionD": "",
+    "correctAnswer": "É educado, respeita os passageiros e atende às suas necessidades."
+  },
+  {
+    "id": 5,
+    "question": "O processo de comunicação requer, no mínimo:",
+    "image": "images/a/q5.jpg",
+    "optionA": "Um emissor.",
+    "optionB": "Um recetor.",
+    "optionC": "Um emissor e um recetor.",
+    "optionD": "",
+    "correctAnswer": "Um emissor e um recetor."
+  },
+  {
+    "id": 6,
+    "question": "O sinal indica:",
+    "image": "images/a/q6.jpg",
+    "optionA": "Passagem de peões.",
+    "optionB": "A existência de um túnel.",
+    "optionC": "Entrada num parque de estacionamento.",
+    "optionD": "",
+    "correctAnswer": "A existência de um túnel."
+  },
+  {
+    "id": 7,
+    "question": "Ao conduzir à noite, o motorista deve:",
+    "image": "images/a/q7.jpg",
+    "optionA": "Reduzir a velocidade apenas nas curvas.",
+    "optionB": "Manter os máximos ligados em todas as situações.",
+    "optionC": "Ver e ser visto, usando corretamente as luzes.",
+    "optionD": "",
+    "correctAnswer": "Ver e ser visto, usando corretamente as luzes."
+  },
+  {
+    "id": 8,
+    "question": "Uma das funções importantes da comunicação é transmitir conhecimento.",
+    "image": "images/a/q8.jpg",
+    "optionA": "Verdadeiro",
+    "optionB": "Falso",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "Verdadeiro"
   }
 ]
