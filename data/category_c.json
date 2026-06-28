@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 54,
     "question": "Um veículo usado no serviço TVDE deve passar por uma inspeção técnica:",
     "image": "images/a/q1.jpg",
     "optionA": "1 ano após a matrícula e, depois, todos os anos.",
@@ -10,7 +10,7 @@
     "correctAnswer": "1 ano após a matrícula e, depois, todos os anos."
   },
   {
-    "id": 2,
+    "id": 55,
     "question": "Quando a intensidade do trânsito aumenta, a velocidade deve:",
     "image": "images/a/q2.jpg",
     "optionA": "Diminuir.",
@@ -20,7 +20,7 @@
     "correctAnswer": "Diminuir."
   },
   {
-    "id": 3,
+    "id": 56,
     "question": "A distância de travagem varia com:",
     "image": "images/a/q3.jpg",
     "optionA": "As condições atmosféricas.",
@@ -30,7 +30,7 @@
     "correctAnswer": "As condições atmosféricas."
   },
   {
-    "id": 4,
+    "id": 57,
     "question": "Um motorista tem um comportamento profissional quando:",
     "image": "images/a/q4.jpg",
     "optionA": "É apressado e impaciente durante a condução.",
@@ -40,7 +40,7 @@
     "correctAnswer": "É educado, respeita os passageiros e atende às suas necessidades."
   },
   {
-    "id": 5,
+    "id": 58,
     "question": "O processo de comunicação requer, no mínimo:",
     "image": "images/a/q5.jpg",
     "optionA": "Um emissor.",
@@ -50,7 +50,7 @@
     "correctAnswer": "Um emissor e um recetor."
   },
   {
-    "id": 6,
+    "id": 59,
     "question": "O sinal indica:",
     "image": "images/a/q6.jpg",
     "optionA": "Passagem de peões.",
@@ -60,7 +60,7 @@
     "correctAnswer": "A existência de um túnel."
   },
   {
-    "id": 7,
+    "id": 60,
     "question": "Ao conduzir à noite, o motorista deve:",
     "image": "images/a/q7.jpg",
     "optionA": "Reduzir a velocidade apenas nas curvas.",
@@ -70,7 +70,7 @@
     "correctAnswer": "Ver e ser visto, usando corretamente as luzes."
   },
   {
-    "id": 8,
+    "id": 61,
     "question": "Uma das funções importantes da comunicação é transmitir conhecimento.",
     "image": "images/a/q8.jpg",
     "optionA": "Verdadeiro",
@@ -80,7 +80,7 @@
     "correctAnswer": "Verdadeiro"
   },
   {
-    "id": 9,
+    "id": 62,
     "question": "Qual a velocidade máxima permitida a um automóvel ligeiro dentro de uma localidade?",
     "image": "images/a/q9.jpg",
     "optionA": "50 km/h",
@@ -90,7 +90,7 @@
     "correctAnswer": "50 km/h"
   },
   {
-    "id": 10,
+    "id": 63,
     "question": "O que deve fazer perante o sinal?",
     "image": "images/a/q10.jpg",
     "optionA": "Ceder a passagem a todos os veículos.",
@@ -100,7 +100,7 @@
     "correctAnswer": "Ceder a passagem a todos os veículos."
   },
   {
-    "id": 11,
+    "id": 64,
     "question": "O que deve respeitar em primeiro lugar?",
     "image": "images/a/q11.jpg",
     "optionA": "Os sinais luminosos.",
@@ -110,7 +110,7 @@
     "correctAnswer": "As ordens da polícia."
   },
   {
-    "id": 12,
+    "id": 65,
     "question": "Em caso de queimadura deve:",
     "image": "images/a/q12.jpg",
     "optionA": "Lavar a zona afetada com água quente.",
@@ -120,7 +120,7 @@
     "correctAnswer": "Evitar tocar diretamente na área queimada."
   },
   {
-    "id": 13,
+    "id": 66,
     "question": "Uma condução defensiva é:",
     "image": "images/a/q13.jpg",
     "optionA": "Estar atento aos outros condutores, antecipando situações de risco.",
@@ -130,7 +130,7 @@
     "correctAnswer": "Estar atento aos outros condutores, antecipando situações de risco."
   },
   {
-    "id": 14,
+    "id": 67,
     "question": "Para sinalizar corretamente o local de um acidente, o motorista deve:",
     "image": "images/a/q14.jpg",
     "optionA": "Ligar as luzes de perigo, vestir o colete refletor e colocar o triângulo de pré-sinalização de perigo.",
@@ -140,7 +140,7 @@
     "correctAnswer": "Ligar as luzes de perigo, vestir o colete refletor e colocar o triângulo de pré-sinalização de perigo."
   },
   {
-    "id": 15,
+    "id": 68,
     "question": "Neste local, posso transitar a 50 km/h?",
     "image": "images/a/q15.jpg",
     "optionA": "Não, porque a sinalização vertical o proíbe.",
@@ -150,7 +150,7 @@
     "correctAnswer": "Sim, porque o pavimento está em boas condições."
   },
   {
-    "id": 16,
+    "id": 69,
     "question": "Em rotundas, pode circular na via mais à direita:",
     "image": "images/a/q16.jpg",
     "optionA": "Apenas para sair na primeira saída.",
@@ -160,7 +160,7 @@
     "correctAnswer": "Apenas para sair na primeira saída."
   },
   {
-    "id": 17,
+    "id": 70,
     "question": "Os motoristas TVDE podem recolher passageiros diretamente na via pública, sem recurso a plataforma eletrónica?",
     "image": "images/a/q17.jpg",
     "optionA": "Sim.",
