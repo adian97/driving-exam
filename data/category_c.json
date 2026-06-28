@@ -7,7 +7,7 @@
     "optionB": "2 anos após a matrícula e, depois, de dois em dois anos.",
     "optionC": "No prazo estipulado pelo IMT.",
     "optionD": "",
-    "correctAnswer": "1 ano após a matrícula e, depois, todos os anos."
+    "correctAnswer": "A"
   },
   {
     "id": 55,
@@ -17,7 +17,7 @@
     "optionB": "Aumentar.",
     "optionC": "Ser mantida.",
     "optionD": "",
-    "correctAnswer": "Diminuir."
+    "correctAnswer": "A"
   },
   {
     "id": 56,
@@ -27,7 +27,7 @@
     "optionB": "A largura da via.",
     "optionC": "A sinalização vertical existente no local.",
     "optionD": "",
-    "correctAnswer": "As condições atmosféricas."
+    "correctAnswer": "A"
   },
   {
     "id": 57,
@@ -37,7 +37,7 @@
     "optionB": "Ignora os pedidos dos passageiros.",
     "optionC": "É educado, respeita os passageiros e atende às suas necessidades.",
     "optionD": "",
-    "correctAnswer": "É educado, respeita os passageiros e atende às suas necessidades."
+    "correctAnswer": "C"
   },
   {
     "id": 58,
@@ -47,7 +47,7 @@
     "optionB": "Um recetor.",
     "optionC": "Um emissor e um recetor.",
     "optionD": "",
-    "correctAnswer": "Um emissor e um recetor."
+    "correctAnswer": "C"
   },
   {
     "id": 59,
@@ -57,7 +57,7 @@
     "optionB": "A existência de um túnel.",
     "optionC": "Entrada num parque de estacionamento.",
     "optionD": "",
-    "correctAnswer": "A existência de um túnel."
+    "correctAnswer": "B"
   },
   {
     "id": 60,
@@ -67,7 +67,7 @@
     "optionB": "Manter os máximos ligados em todas as situações.",
     "optionC": "Ver e ser visto, usando corretamente as luzes.",
     "optionD": "",
-    "correctAnswer": "Ver e ser visto, usando corretamente as luzes."
+    "correctAnswer": "C"
   },
   {
     "id": 61,
@@ -77,7 +77,7 @@
     "optionB": "Falso",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Verdadeiro"
+    "correctAnswer": "A"
   },
   {
     "id": 62,
@@ -87,7 +87,7 @@
     "optionB": "60 km/h",
     "optionC": "90 km/h",
     "optionD": "",
-    "correctAnswer": "50 km/h"
+    "correctAnswer": "A"
   },
   {
     "id": 63,
@@ -97,7 +97,7 @@
     "optionB": "Avançar em primeiro lugar.",
     "optionC": "Manter a velocidade.",
     "optionD": "",
-    "correctAnswer": "Ceder a passagem a todos os veículos."
+    "correctAnswer": "A"
   },
   {
     "id": 64,
@@ -107,7 +107,7 @@
     "optionB": "As marcas rodoviárias.",
     "optionC": "As ordens da polícia.",
     "optionD": "",
-    "correctAnswer": "As ordens da polícia."
+    "correctAnswer": "C"
   },
   {
     "id": 65,
@@ -117,7 +117,7 @@
     "optionB": "Furar as bolhas existentes.",
     "optionC": "Evitar tocar diretamente na área queimada.",
     "optionD": "",
-    "correctAnswer": "Evitar tocar diretamente na área queimada."
+    "correctAnswer": "C"
   },
   {
     "id": 66,
@@ -127,7 +127,7 @@
     "optionB": "Conduzir sempre a alta velocidade.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Estar atento aos outros condutores, antecipando situações de risco."
+    "correctAnswer": "A"
   },
   {
     "id": 67,
@@ -137,7 +137,7 @@
     "optionB": "Abandonar o local do acidente.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Ligar as luzes de perigo, vestir o colete refletor e colocar o triângulo de pré-sinalização de perigo."
+    "correctAnswer": "A"
   },
   {
     "id": 68,
@@ -147,7 +147,7 @@
     "optionB": "Sim, porque dentro das localidades esta é a velocidade mínima obrigatória.",
     "optionC": "Sim, porque o pavimento está em boas condições.",
     "optionD": "",
-    "correctAnswer": "Sim, porque o pavimento está em boas condições."
+    "correctAnswer": "C"
   },
   {
     "id": 69,
@@ -157,7 +157,7 @@
     "optionB": "Sempre, independentemente da saída.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Apenas para sair na primeira saída."
+    "correctAnswer": "A"
   },
   {
     "id": 70,
@@ -167,6 +167,6 @@
     "optionB": "Não.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Não."
+    "correctAnswer": "B"
   }
 ]
