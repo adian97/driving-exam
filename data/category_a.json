@@ -7,7 +7,7 @@
     "optionB": "Não.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Não."
+    "correctAnswer": "B"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "optionB": "Obrigações a cumprir.",
     "optionC": "Restrições ou limites.",
     "optionD": "",
-    "correctAnswer": "Restrições ou limites."
+    "correctAnswer": "C"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "optionB": "Reduzir a velocidade e evitar manobras bruscas.",
     "optionC": "Aumentar a velocidade.",
     "optionD": "",
-    "correctAnswer": "Reduzir a velocidade e evitar manobras bruscas."
+    "correctAnswer": "B"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "optionB": "Verdadeiro",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Verdadeiro"
+    "correctAnswer": "B"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "optionB": "Não.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Não."
+    "correctAnswer": "B"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "optionB": "O veículo que circula pela esquerda.",
     "optionC": "O veículo que circula pela direita.",
     "optionD": "",
-    "correctAnswer": "O veículo que circula pela direita."
+    "correctAnswer": "C"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "optionB": "A redução da visibilidade.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "A redução da visibilidade."
+    "correctAnswer": "B"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "optionB": "Um veículo elétrico ou híbrido.",
     "optionC": "Um motorista com formação adicional.",
     "optionD": "",
-    "correctAnswer": "Um veículo com capacidade para transportar cadeiras de rodas."
+    "correctAnswer": "A"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "optionB": "Falso",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Verdadeiro"
+    "correctAnswer": "A"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "optionB": "10 anos",
     "optionC": "7 anos",
     "optionD": "",
-    "correctAnswer": "7 anos"
+    "correctAnswer": "C"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "optionB": "Falso",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Verdadeiro"
+    "correctAnswer": "A"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "optionB": "Quando a mensagem é compreendida.",
     "optionC": "Quando ninguém responde.",
     "optionD": "",
-    "correctAnswer": "Quando a mensagem é compreendida."
+    "correctAnswer": "B"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "optionB": "Não é necessário sinalizar.",
     "optionC": "Apenas se houver trânsito intenso.",
     "optionD": "",
-    "correctAnswer": "Ao aproximar-se da saída."
+    "correctAnswer": "A"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "optionB": "Às condições da estrada e do trânsito.",
     "optionC": "À vontade do condutor.",
     "optionD": "",
-    "correctAnswer": "Às condições da estrada e do trânsito."
+    "correctAnswer": "B"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "optionB": "Não.",
     "optionC": "Sim, porque é um valor permitido.",
     "optionD": "",
-    "correctAnswer": "Não."
+    "correctAnswer": "B"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "optionB": "Aumentar a velocidade para atravessar a zona rapidamente.",
     "optionC": "Reduzir a velocidade e manter firme o controlo do volante.",
     "optionD": "",
-    "correctAnswer": "Reduzir a velocidade e manter firme o controlo do volante."
+    "correctAnswer": "C"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "optionB": "2 anos.",
     "optionC": "3 anos.",
     "optionD": "",
-    "correctAnswer": "3 anos."
+    "correctAnswer": "C"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "optionB": "Usar o extintor e apontar à base das chamas.",
     "optionC": "Esperar que o fogo se apague.",
     "optionD": "",
-    "correctAnswer": "Usar o extintor e apontar à base das chamas."
+    "correctAnswer": "B"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "optionB": "Guardá-lo no veículo, para a próxima utilização.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "Recarregá-lo ou substituí-lo por um novo."
+    "correctAnswer": "A."
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "optionB": "Somente em locais com pouca visibilidade.",
     "optionC": "Apenas em estradas movimentadas.",
     "optionD": "",
-    "correctAnswer": "Sempre que sair do veículo para sinalizar ou reparar."
+    "correctAnswer": "A"
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "optionB": "Retirar a vítima do veículo imediatamente.",
     "optionC": "Procurar por ferimentos visíveis.",
     "optionD": "",
-    "correctAnswer": "Verificar se respira e se tem pulsação."
+    "correctAnswer": "A"
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "optionB": "Garantir a segurança no local, sinalizar e ligar para o 112.",
     "optionC": "Resolver a situação sozinho, sem pedir ajuda.",
     "optionD": "",
-    "correctAnswer": "Garantir a segurança no local, sinalizar e ligar para o 112."
+    "correctAnswer": "B"
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "optionB": "Passiva.",
     "optionC": "Assertiva.",
     "optionD": "",
-    "correctAnswer": "Assertiva."
+    "correctAnswer": "C"
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "optionB": "Ouvir para compreender.",
     "optionC": "Falar rapidamente para terminar a conversa.",
     "optionD": "",
-    "correctAnswer": "Ouvir para compreender."
+    "correctAnswer": "B"
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "optionB": "Quando a mensagem é compreendida.",
     "optionC": "Quando ninguém responde.",
     "optionD": "",
-    "correctAnswer": "Quando a mensagem é compreendida."
+    "correctAnswer": "B"
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "optionB": "Ao início de uma conversa.",
     "optionC": "À forma como utilizamos o tom de voz.",
     "optionD": "",
-    "correctAnswer": "À resposta ou reação da pessoa à mensagem."
+    "correctAnswer": "A"
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "optionB": "Quando o veículo da frente sinaliza que vai virar à esquerda.",
     "optionC": "Em qualquer situação.",
     "optionD": "",
-    "correctAnswer": "Quando o veículo da frente sinaliza que vai virar à esquerda."
+    "correctAnswer": "B"
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "optionB": "Aumentar a velocidade.",
     "optionC": "Aproximar-se ao máximo do veículo da frente.",
     "optionD": "",
-    "correctAnswer": "Verificar se há espaço suficiente e visibilidade."
+    "correctAnswer": "A"
   },
   {
     "id": 29,
@@ -287,6 +287,6 @@
     "optionB": "Os veículos em serviço de urgência devem ceder a passagem aos veículos que circulam na rotunda.",
     "optionC": "Deve ceder a passagem aos veículos em serviço de urgência que entram na rotunda.",
     "optionD": "",
-    "correctAnswer": "Deve ceder a passagem aos veículos em serviço de urgência que entram na rotunda."
+    "correctAnswer": "C"
   }
 ]
