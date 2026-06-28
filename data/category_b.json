@@ -108,5 +108,75 @@
     "optionC": "Inferior a 15 minutos.",
     "optionD": "",
     "correctAnswer": "Inferior a 15 minutos."
+  },
+  {
+    "id": 12,
+    "question": "Qual é a lotação máxima permitida para veículos utilizados no serviço TVDE?",
+    "image": "images/a/q12.jpg",
+    "optionA": "7 lugares, incluindo o motorista.",
+    "optionB": "9 lugares, incluindo o motorista.",
+    "optionC": "12 lugares, incluindo o motorista.",
+    "optionD": "",
+    "correctAnswer": "9 lugares, incluindo o motorista."
+  },
+  {
+    "id": 13,
+    "question": "O que é a comunicação verbal?",
+    "image": "images/a/q13.jpg",
+    "optionA": "Usar gestos e sinais para comunicar.",
+    "optionB": "Falar ou escrever para transmitir uma mensagem.",
+    "optionC": "Ficar em silêncio.",
+    "optionD": "",
+    "correctAnswer": "Falar ou escrever para transmitir uma mensagem."
+  },
+  {
+    "id": 14,
+    "question": "O que deve fazer perante um sinal de STOP?",
+    "image": "images/a/q14.jpg",
+    "optionA": "Parar apenas se vier outro veículo.",
+    "optionB": "Parar obrigatoriamente antes de avançar.",
+    "optionC": "Reduzir a velocidade.",
+    "optionD": "",
+    "correctAnswer": "Parar obrigatoriamente antes de avançar."
+  },
+  {
+    "id": 15,
+    "question": "O que significa \"eco condução\"?",
+    "image": "images/a/q15.jpg",
+    "optionA": "Utilizar apenas veículos elétricos.",
+    "optionB": "Conduzir de forma eficiente, reduzindo o consumo de combustível e poluição.",
+    "optionC": "Manter a velocidade máxima para chegar rapidamente ao destino.",
+    "optionD": "",
+    "correctAnswer": "Conduzir de forma eficiente, reduzindo o consumo de combustível e poluição."
+  },
+  {
+    "id": 16,
+    "question": "É proibido ultrapassar:",
+    "image": "images/a/q16.jpg",
+    "optionA": "Em lombas ou cruzamentos sem visibilidade.",
+    "optionB": "Quando o veículo é lento.",
+    "optionC": "Em autoestradas.",
+    "optionD": "",
+    "correctAnswer": "Em lombas ou cruzamentos sem visibilidade."
+  },
+  {
+    "id": 17,
+    "question": "O que o motorista deve fazer ao sair de um caminho particular?",
+    "image": "images/a/q17.jpg",
+    "optionA": "Ceder a passagem a todos os veículos e peões na via pública.",
+    "optionB": "Avançar sem ceder passagem.",
+    "optionC": "",
+    "optionD": "",
+    "correctAnswer": "Ceder a passagem a todos os veículos e peões na via pública."
+  },
+  {
+    "id": 18,
+    "question": "Como deve proceder ao conduzir com neve ou gelo?",
+    "image": "images/a/q18.jpg",
+    "optionA": "Aumentar a velocidade para evitar derrapagens.",
+    "optionB": "Travar bruscamente.",
+    "optionC": "Colocar correntes nos pneus e circular devagar.",
+    "optionD": "",
+    "correctAnswer": "Colocar correntes nos pneus e circular devagar."
   }
 ]
