@@ -178,5 +178,65 @@
     "optionC": "Colocar correntes nos pneus e circular devagar.",
     "optionD": "",
     "correctAnswer": "Colocar correntes nos pneus e circular devagar."
+  },
+  {
+    "id": 19,
+    "question": "Os sinais verticais de obrigação são:",
+    "image": "images/a/q19.jpg",
+    "optionA": "Circulares com fundo azul.",
+    "optionB": "Retangulares com fundo verde.",
+    "optionC": "Triangulares com borda vermelha.",
+    "optionD": "",
+    "correctAnswer": "Circulares com fundo azul."
+  },
+  {
+    "id": 20,
+    "question": "É permitido ultrapassar em curvas com visibilidade reduzida?",
+    "image": "images/a/q20.jpg",
+    "optionA": "Sim, é permitido.",
+    "optionB": "É proibido ultrapassar em curvas com visibilidade reduzida.",
+    "optionC": "Passar rapidamente antes que outro veículo chegue.",
+    "optionD": "",
+    "correctAnswer": "É proibido ultrapassar em curvas com visibilidade reduzida."
+  },
+  {
+    "id": 21,
+    "question": "Numa ultrapassagem, o motorista deve voltar à sua via de trânsito:",
+    "image": "images/a/q21.jpg",
+    "optionA": "Após aumentar a velocidade.",
+    "optionB": "Logo após concluir a manobra.",
+    "optionC": "Assim que o veículo ultrapassado fique visível no retrovisor.",
+    "optionD": "",
+    "correctAnswer": "Assim que o veículo ultrapassado fique visível no retrovisor."
+  },
+  {
+    "id": 22,
+    "question": "O que deve informar ao ligar para o 112, em caso de acidente?",
+    "image": "images/a/q22.jpg",
+    "optionA": "Apenas o tipo de acidente.",
+    "optionB": "Localização exata, tipo de acidente e número de vítimas.",
+    "optionC": "A cor dos veículos envolvidos no acidente.",
+    "optionD": "",
+    "correctAnswer": "Localização exata, tipo de acidente e número de vítimas."
+  },
+  {
+    "id": 23,
+    "question": "O sinal com luz amarela está intermitente, pelo que o motorista:",
+    "image": "images/a/q23.jpg",
+    "optionA": "Deve parar.",
+    "optionB": "Deve acelerar.",
+    "optionC": "Pode passar, mas com cuidado.",
+    "optionD": "",
+    "correctAnswer": "Pode passar, mas com cuidado."
+  },
+  {
+    "id": 24,
+    "question": "Os princípios gerais do socorrismo são:",
+    "image": "images/a/q24.jpg",
+    "optionA": "Prever, ajudar e socorrer.",
+    "optionB": "Parar, socorrer e alertar.",
+    "optionC": "Prevenir, alertar e socorrer.",
+    "optionD": "",
+    "correctAnswer": "Prevenir, alertar e socorrer."
   }
 ]
