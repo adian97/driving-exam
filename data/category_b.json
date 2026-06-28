@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 30,
     "question": "Qual a importância do tom de voz na comunicação?",
     "image": "images/a/q29.jpg",
     "optionA": "Ajuda a transmitir a mensagem de forma clara.",
@@ -10,7 +10,7 @@
     "correctAnswer": "Ajuda a transmitir a mensagem de forma clara."
   },
   {
-    "id": 2,
+    "id": 31,
     "question": "O primeiro contacto com o motorista ajuda a criar uma boa impressão sobre o serviço.",
     "image": "images/a/q30.jpg",
     "optionA": "Verdadeiro.",
@@ -20,7 +20,7 @@
     "correctAnswer": "Verdadeiro."
   },
   {
-    "id": 3,
+    "id": 32,
     "question": "Como agir com um passageiro impaciente ou agressivo?",
     "image": "images/a/q31.jpg",
     "optionA": "Responder com a mesma agressividade.",
@@ -30,7 +30,7 @@
     "correctAnswer": "Manter a calma, ser cordial e evitar o conflito."
   },
   {
-    "id": 4,
+    "id": 33,
     "question": "Em ultrapassagem, uma bicicleta deve manter uma distância lateral:",
     "image": "images/a/q32.jpg",
     "optionA": "Sim, de 1,5 metros.",
@@ -40,7 +40,7 @@
     "correctAnswer": "Sim, de 1,5 metros."
   },
   {
-    "id": 5,
+    "id": 34,
     "question": "Para mudar de via de circulação dentro de uma rotunda, o motorista deve:",
     "image": "images/a/q33.jpg",
     "optionA": "Mudar de via sem sinalizar.",
@@ -50,7 +50,7 @@
     "correctAnswer": "Sinalizar e garantir que a manobra é segura."
   },
   {
-    "id": 6,
+    "id": 35,
     "question": "O que deve fazer em condições de nevoeiro?",
     "image": "images/a/q34.jpg",
     "optionA": "Usar as luzes de nevoeiro e ajustar a velocidade.",
@@ -60,7 +60,7 @@
     "correctAnswer": "Usar as luzes de nevoeiro e ajustar a velocidade."
   },
   {
-    "id": 7,
+    "id": 36,
     "question": "Quando o piso está escorregadio, o motorista deve:",
     "image": "images/a/35.jpg",
     "optionA": "Travar bruscamente.",
@@ -70,7 +70,7 @@
     "correctAnswer": "Reduzir a velocidade e evitar manobras bruscas."
   },
   {
-    "id": 8,
+    "id": 37,
     "question": "Quando um peão atravessa numa passagem para peões, o motorista deve:",
     "image": "images/a/q36.jpg",
     "optionA": "Reduzir a velocidade, mas continuar.",
@@ -80,7 +80,7 @@
     "correctAnswer": "Parar e deixar o peão atravessar."
   },
   {
-    "id": 9,
+    "id": 38,
     "question": "O sinal indica:",
     "image": "images/a/q37.jpg",
     "optionA": "Estacionamento autorizado.",
@@ -90,7 +90,7 @@
     "correctAnswer": "Estacionamento proibido."
   },
   {
-    "id": 10,
+    "id": 39,
     "question": "Quem é responsável pela fiscalização do cumprimento das regras no serviço TVDE?",
     "image": "images/a/q38.jpg",
     "optionA": "GNR e IMT.",
@@ -100,7 +100,7 @@
     "correctAnswer": "PSP, GNR e IMT."
   },
   {
-    "id": 11,
+    "id": 40,
     "question": "O tempo de espera para passageiros com mobilidade reduzida deve ser:",
     "image": "images/a/q39.jpg",
     "optionA": "Superior a 30 minutos.",
@@ -110,7 +110,7 @@
     "correctAnswer": "Inferior a 15 minutos."
   },
   {
-    "id": 12,
+    "id": 41,
     "question": "Qual é a lotação máxima permitida para veículos utilizados no serviço TVDE?",
     "image": "images/a/q12.jpg",
     "optionA": "7 lugares, incluindo o motorista.",
@@ -120,7 +120,7 @@
     "correctAnswer": "9 lugares, incluindo o motorista."
   },
   {
-    "id": 13,
+    "id": 42,
     "question": "O que é a comunicação verbal?",
     "image": "images/a/q13.jpg",
     "optionA": "Usar gestos e sinais para comunicar.",
@@ -130,7 +130,7 @@
     "correctAnswer": "Falar ou escrever para transmitir uma mensagem."
   },
   {
-    "id": 14,
+    "id": 43,
     "question": "O que deve fazer perante um sinal de STOP?",
     "image": "images/a/q14.jpg",
     "optionA": "Parar apenas se vier outro veículo.",
@@ -140,7 +140,7 @@
     "correctAnswer": "Parar obrigatoriamente antes de avançar."
   },
   {
-    "id": 15,
+    "id": 44,
     "question": "O que significa \"eco condução\"?",
     "image": "images/a/q15.jpg",
     "optionA": "Utilizar apenas veículos elétricos.",
@@ -150,7 +150,7 @@
     "correctAnswer": "Conduzir de forma eficiente, reduzindo o consumo de combustível e poluição."
   },
   {
-    "id": 16,
+    "id": 45,
     "question": "É proibido ultrapassar:",
     "image": "images/a/q16.jpg",
     "optionA": "Em lombas ou cruzamentos sem visibilidade.",
@@ -160,7 +160,7 @@
     "correctAnswer": "Em lombas ou cruzamentos sem visibilidade."
   },
   {
-    "id": 17,
+    "id": 46,
     "question": "O que o motorista deve fazer ao sair de um caminho particular?",
     "image": "images/a/q17.jpg",
     "optionA": "Ceder a passagem a todos os veículos e peões na via pública.",
@@ -170,7 +170,7 @@
     "correctAnswer": "Ceder a passagem a todos os veículos e peões na via pública."
   },
   {
-    "id": 18,
+    "id": 47,
     "question": "Como deve proceder ao conduzir com neve ou gelo?",
     "image": "images/a/q18.jpg",
     "optionA": "Aumentar a velocidade para evitar derrapagens.",
@@ -180,7 +180,7 @@
     "correctAnswer": "Colocar correntes nos pneus e circular devagar."
   },
   {
-    "id": 19,
+    "id": 48,
     "question": "Os sinais verticais de obrigação são:",
     "image": "images/a/q19.jpg",
     "optionA": "Circulares com fundo azul.",
@@ -190,7 +190,7 @@
     "correctAnswer": "Circulares com fundo azul."
   },
   {
-    "id": 20,
+    "id": 49,
     "question": "É permitido ultrapassar em curvas com visibilidade reduzida?",
     "image": "images/a/q20.jpg",
     "optionA": "Sim, é permitido.",
@@ -200,7 +200,7 @@
     "correctAnswer": "É proibido ultrapassar em curvas com visibilidade reduzida."
   },
   {
-    "id": 21,
+    "id": 50,
     "question": "Numa ultrapassagem, o motorista deve voltar à sua via de trânsito:",
     "image": "images/a/q21.jpg",
     "optionA": "Após aumentar a velocidade.",
@@ -210,7 +210,7 @@
     "correctAnswer": "Assim que o veículo ultrapassado fique visível no retrovisor."
   },
   {
-    "id": 22,
+    "id": 51,
     "question": "O que deve informar ao ligar para o 112, em caso de acidente?",
     "image": "images/a/q22.jpg",
     "optionA": "Apenas o tipo de acidente.",
@@ -220,7 +220,7 @@
     "correctAnswer": "Localização exata, tipo de acidente e número de vítimas."
   },
   {
-    "id": 23,
+    "id": 52,
     "question": "O sinal com luz amarela está intermitente, pelo que o motorista:",
     "image": "images/a/q23.jpg",
     "optionA": "Deve parar.",
@@ -230,7 +230,7 @@
     "correctAnswer": "Pode passar, mas com cuidado."
   },
   {
-    "id": 24,
+    "id": 53,
     "question": "Os princípios gerais do socorrismo são:",
     "image": "images/a/q24.jpg",
     "optionA": "Prever, ajudar e socorrer.",
