@@ -146,6 +146,7 @@ document
     });
 
 loadOptions(q);
+}
 
 function loadOptions(question) {
 
