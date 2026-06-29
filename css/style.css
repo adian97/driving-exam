@@ -390,9 +390,9 @@ header{
     width:0;
     height:0;
 
-    border-left:20px solid transparent;
-    border-right:20px solid transparent;
-    border-bottom:24px solid #69b52c;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-bottom:20px solid #69b52c;
 }
 
 /* Navigation Arrows */
