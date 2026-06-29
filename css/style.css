@@ -325,7 +325,10 @@ header{
     font-weight:bold;
     color:transparent;
 }
-/* BOTTOM NAVIGATION */
+/* ==========================
+   BOTTOM NAVIGATION
+========================== */
+
 .bottom-navigation{
     height:120px;
     padding:5px 20px;
@@ -333,18 +336,6 @@ header{
     justify-content:space-between;
     align-items:center;
     gap:15px;
-    position:relative;
-}
-.nav-arrow:first-child{
-    border-top:30px solid transparent;
-    border-bottom:30px solid transparent;
-    border-right:45px solid #69b52c;
-}
-
-.nav-arrow:last-child{
-    border-top:30px solid transparent;
-    border-bottom:30px solid transparent;
-    border-left:45px solid #69b52c;
 }
 
 /* Question Numbers */
@@ -360,21 +351,8 @@ header{
 #questionNumbers::-webkit-scrollbar{
     display:none;
 }
-.bottom-navigation::after{
-    content:"";
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
-    bottom:18px;
 
-    width:0;
-    height:0;
-
-    border-left:20px solid transparent;
-    border-right:20px solid transparent;
-    border-bottom:24px solid #69b52c;
-}
-
+/* Number Box */
 .question-box-item{
     width:32px;
     min-width:32px;
@@ -388,16 +366,31 @@ header{
     font-weight:600;
     position:relative;
     cursor:pointer;
+    flex-shrink:0;
 }
 
+/* Active Number */
 .question-box-item.active{
     background:#2ecc71;
     color:#fff;
     border:none;
 }
 
-/* Bottom Arrow */
+/* Moving Arrow Under Active Number */
+.question-box-item.active::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:-28px;
 
+    width:0;
+    height:0;
+
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-bottom:24px solid #69b52c;
+}
 
 /* Navigation Arrows */
 .nav-arrow{
