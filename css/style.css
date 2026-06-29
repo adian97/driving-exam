@@ -330,7 +330,7 @@ header{
     height:120px;
     padding:5px 20px;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
     gap:15px;
 }
@@ -350,8 +350,9 @@ header{
 #questionNumbers{
     display:flex;
     gap:1px;
-    max-width:900px;
     overflow-x:auto;
+    max-width:850px;
+    scroll-behavior:smooth;
     scrollbar-width:none;
 }
 
