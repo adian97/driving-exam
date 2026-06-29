@@ -343,9 +343,11 @@ header{
     display:flex;
     gap:1px;
     overflow-x:auto;
+    overflow-y:visible;
     max-width:850px;
     scroll-behavior:smooth;
     scrollbar-width:none;
+    padding-bottom:30px;
 }
 
 #questionNumbers::-webkit-scrollbar{
