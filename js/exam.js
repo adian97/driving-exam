@@ -125,19 +125,27 @@ function showQuestion(index) {
         q.image;
 
     document
-        .querySelectorAll(".question-box-item")
-        .forEach(box => {
-            box.classList.remove("active");
-        });
+    .querySelectorAll(".question-box-item")
+    .forEach(box => {
+        box.classList.remove("active");
+    });
 
-    document
-        .querySelectorAll(".question-box-item")
-        [index]
-        .classList
-        .add("active");
+document
+    .querySelectorAll(".question-box-item")
+    [index]
+    .classList
+    .add("active");
 
-    loadOptions(q);
-}
+document
+    .querySelectorAll(".question-box-item")
+    [index]
+    .scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest"
+    });
+
+loadOptions(q);
 
 function loadOptions(question) {
 
