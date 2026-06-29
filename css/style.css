@@ -333,9 +333,9 @@ header{
     height:80px;
     padding:5px 20px;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
-    gap:15px;
+    gap:5px;
 }
 
 /* Question Numbers */
@@ -344,6 +344,7 @@ header{
     gap:1px;
     overflow-x:auto;
     overflow-y:visible;
+    flex:1;
     max-width:850px;
     scroll-behavior:smooth;
     scrollbar-width:none;
@@ -411,7 +412,7 @@ header{
     border-top:30px solid transparent;
     border-bottom:30px solid transparent;
     border-right:45px solid #69b52c;
-    margin-right:10px;
+    margin-right:5px;
 }
 
 /* RIGHT */
@@ -419,7 +420,7 @@ header{
     border-top:30px solid transparent;
     border-bottom:30px solid transparent;
     border-left:45px solid #69b52c;
-    margin-left:10px;
+    margin-left:5px;
 }
 /* RESPONSIVE */
 
