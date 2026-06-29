@@ -350,6 +350,13 @@ header{
 #questionNumbers{
     display:flex;
     gap:1px;
+    max-width:900px;
+    overflow-x:auto;
+    scrollbar-width:none;
+}
+
+#questionNumbers::-webkit-scrollbar{
+    display:none;
 }
 
 .question-box-item{
