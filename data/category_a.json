@@ -87,7 +87,7 @@
     "optionB": "Falso",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "A"
+    "correctAnswer": "B"
   },
   {
     "id": 10,
@@ -288,5 +288,17 @@
     "optionC": "Deve ceder a passagem aos veículos em serviço de urgência que entram na rotunda.",
     "optionD": "",
     "correctAnswer": "C"
+  },
+  {
+    "id": 73,
+    "category": "CATEGORY A",
+    "question": "O que deve fazer perante o sinal?",
+    "image": "images/a/q73.jpg",
+    "optionA": "Ceder a passagem a todos os veículos.",
+    "optionB": "Avançar em primeiro lugar.",
+    "optionC": "Manter a velocidade.",
+    "optionD": "",
+    "correctAnswer": "A",
+    "difficulty": "EASY"
   }
 ]
