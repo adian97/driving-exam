@@ -493,71 +493,11 @@
     "correctAnswer": "B"
   },
     {
-    "id": 93,
-    "question": "Qual deve ser a ordem de passagem nesta intersecção?",
-    "image": "images/a/q116.jpg",
-    "optionA": "Ambulância, veículo pesado, veículo verde e por último o meu veículo.",
-    "optionB": "Ambulância, o meu veículo, o veículo verde e por último o veículo pesado.",
-    "optionC": "",
-    "optionD": "",
-    "correctAnswer": "B"
-  },
-    {
-    "id": 94,
-    "question": "O sinal de mudança de direção para a esquerda, do veículo que segue à frente, pode indicar:",
-    "image": "images/a/q118.jpg",
-    "optionA": "Diminuição de velocidade.",
-    "optionB": "Início de manobra de marcha atrás.",
-    "optionC": "Início de uma ultrapassagem.",
-    "optionD": "",
-    "correctAnswer": "C"
-  },
-   {
-    "id": 95,
-    "question": "Em caso de acidente com a sua viatura, qual o procedimento que não deve ser adotado:",
-    "image": "images/a/q113.jpg",
-    "optionA": "Manter a calma",
-    "optionB": "Avaliar a segurança do local",
-    "optionC": "Efetuar uma rápida avaliação da vítima.",
-    "optionD": "Abandonar o local",
-    "correctAnswer": "D"
-  },
-   {
-    "id": 96,
-    "question": "Pretendo seguir em frente e o condutor do veículo de tração animal vai mudar de direção para a esquerda. O que devo fazer?",
-    "image": "images/a/q114.jpg",
-    "optionA": "Devo utilizar sinais sonoros para que o outro condutor se aperceba da minha presença e aumente a velocidade.",
-    "optionB": "Devo ultrapassar o outro condutor pela direita, porque tenho espaço livre.",
-    "optionC": "Devo aguardar que o outro condutor termine a manobra, porque não posso ultrapassar pela direita.",
-    "optionD": "",
-    "correctAnswer": "C"
-  },
-   {
-    "id": 97,
-    "question": "O sinal vertical nesta via pública indica-me que:",
-    "image": "images/a/q119.jpg",
-    "optionA": "Devo utilizar apenas as luzes máximas quando me cruzo com outros veículos.",
-    "optionB": "Sou obrigado a circular com as luzes de cruzamento (médios) acesas.",
-    "optionC": "Deixo de ser obrigado a circular com as luzes de cruzamento (médios) acesas.",
-    "optionD": "",
-    "correctAnswer": "C"
-  },
-   {
     "id": 98,
     "question": "Pode ultrapassar o veículo que circula à frente?",
     "image": "images/a/q120.jpg",
     "optionA": "Sim, a manobra é permitida.",
     "optionB": "Não, devo aguardar que o veículo termine a manobra.",
-    "optionC": "",
-    "optionD": "",
-    "correctAnswer": "B"
-  },
-{
-    "id": 99,
-    "question": "É permitido ultrapassar neste local?",
-    "image": "images/a/q121.jpg",
-    "optionA": "Sim.",
-    "optionB": "Não.",
     "optionC": "",
     "optionD": "",
     "correctAnswer": "B"
@@ -613,16 +553,6 @@
     "correctAnswer": "B"
   },
 {
-    "id": 105,
-    "question": "Perante este sinal, o motorista deve:",
-    "image": "images/a/q125.jpg",
-    "optionA": "Avançar em primeiro lugar.",
-    "optionB": "Ceder a passagem.",
-    "optionC": "",
-    "optionD": "",
-    "correctAnswer": "B"
-  },
-{
     "id": 106,
     "question": "O exame primário da vítima consiste na:",
     "image": "images/a/q113.jpg",
@@ -651,15 +581,5 @@
     "optionC": "Não, porque é proibido ultrapassar nas pontes.",
     "optionD": "",
     "correctAnswer": "A"
-  },
-   {
-    "id": 111,
-    "question": "Por que lado da placa de refúgio posso circular?",
-    "image": "images/a/q129.jpg",
-    "optionA": "Por qualquer dos lados.",
-    "optionB": "Apenas pelo lado direito.",
-    "optionC": "Apenas pelo lado esquerdo",
-    "optionD": "",
-    "correctAnswer": "C"
   }
 ]
