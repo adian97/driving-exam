@@ -88,7 +88,7 @@
     "optionB": "60 km/h",
     "optionC": "90 km/h",
     "optionD": "",
-    "correctAnswer": "A",
+    "correctAnswer": "A"
     
   },
   {
@@ -100,7 +100,7 @@
     "optionB": "As marcas rodoviárias.",
     "optionC": "As ordens da polícia.",
     "optionD": "",
-    "correctAnswer": "C", 
+    "correctAnswer": "C"
   },
   {
     "id": 76,
@@ -111,7 +111,7 @@
     "optionB": "Ouvir para compreender.",
     "optionC": "Falar rapidamente para terminar a conversa.",
     "optionD": "",
-    "correctAnswer": "B",
+    "correctAnswer": "B"
   },
   {
     "id": 77,
@@ -122,7 +122,7 @@
     "optionB": "Furar as bolhas existentes.",
     "optionC": "Evitar tocar diretamente na área queimada.",
     "optionD": "",
-    "correctAnswer": "C",
+    "correctAnswer": "C"
   },
   {
     "id": 78,
@@ -133,7 +133,7 @@
     "optionB": "Conduzir sempre a alta velocidade.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "A",
+    "correctAnswer": "A"
   },
   {
     "id": 79,
@@ -144,7 +144,7 @@
     "optionB": "Abandonar o local do acidente.",
     "optionC": "",
     "optionD": "",
-    "correctAnswer": "A",
+    "correctAnswer": "A"
   },
    {
     "id": 54,
@@ -344,8 +344,7 @@
   "optionB": "Sim, porque dentro das localidades esta é a velocidade mínima obrigatória.",
   "optionC": "Sim, porque o pavimento está em boas condições.",
   "optionD": "",
-  "correctAnswer": "A",
-  "difficulty": "EASY"
+  "correctAnswer": "A"
 },
 {
   "id": 81,
@@ -355,8 +354,7 @@
   "optionB": "Sempre, independentemente da saída.",
   "optionC": "",
   "optionD": "",
-  "correctAnswer": "A",
-  "difficulty": "EASY"
+  "correctAnswer": "A"
 },
 {
   "id": 82,
@@ -366,8 +364,7 @@
   "optionB": "Logo após concluir a manobra.",
   "optionC": "Assim que o veículo ultrapassado fique visível no retrovisor.",
   "optionD": "",
-  "correctAnswer": "C",
-  "difficulty": "EASY"
+  "correctAnswer": "C"
 },
 {
   "id": 83,
@@ -377,8 +374,7 @@
   "optionB": "É proibido ultrapassar em curvas com visibilidade reduzida.",
   "optionC": "Passar rapidamente antes que outro veículo chegue.",
   "optionD": "",
-  "correctAnswer": "B",
-  "difficulty": "EASY"
+  "correctAnswer": "B"
 },
 {
   "id": 84,
@@ -388,8 +384,7 @@
   "optionB": "Não.",
   "optionC": "",
   "optionD": "",
-  "correctAnswer": "B",
-  "difficulty": "EASY"
+  "correctAnswer": "B"
 },
 {
   "id": 85,
@@ -399,8 +394,7 @@
   "optionB": "Falso.",
   "optionC": "",
   "optionD": "",
-  "correctAnswer": "A",
-  "difficulty": "EASY"
+  "correctAnswer": "A"
 },
 {
   "id": 86,
@@ -410,8 +404,7 @@
   "optionB": "Falar ou escrever para transmitir uma mensagem.",
   "optionC": "Ficar em silêncio.",
   "optionD": "",
-  "correctAnswer": "B",
-  "difficulty": "EASY"
+  "correctAnswer": "B"
 },
 {
   "id": 87,
@@ -421,8 +414,7 @@
   "optionB": "Não.",
   "optionC": "",
   "optionD": "",
-  "correctAnswer": "B",
-  "difficulty": "EASY"
+  "correctAnswer": "B"
 },
 {
   "id": 88,
@@ -432,8 +424,7 @@
   "optionB": "Falso.",
   "optionC": "",
   "optionD": "",
-  "correctAnswer": "A",
-  "difficulty": "EASY"
+  "correctAnswer": "A"
 },
 {
   "id": 89,
@@ -443,8 +434,7 @@
   "optionB": "Localização exata, tipo de acidente e número de vítimas.",
   "optionC": "A cor dos veículos envolvidos no acidente.",
   "optionD": "",
-  "correctAnswer": "B",
-  "difficulty": "EASY"
+  "correctAnswer": "B"
 },
 {
   "id": 90,
@@ -454,8 +444,7 @@
   "optionB": "A largura da via.",
   "optionC": "A sinalização vertical existente no local.",
   "optionD": "",
-  "correctAnswer": "A",
-  "difficulty": "EASY"
+  "correctAnswer": "A"
 },
     {
     "id": 45,
