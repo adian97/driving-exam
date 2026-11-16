@@ -89,7 +89,7 @@
     "optionC": "90 km/h",
     "optionD": "",
     "correctAnswer": "A",
-    "difficulty": "EASY"
+    
   },
   {
     "id": 75,
@@ -100,8 +100,7 @@
     "optionB": "As marcas rodoviárias.",
     "optionC": "As ordens da polícia.",
     "optionD": "",
-    "correctAnswer": "C",
-    "difficulty": "EASY"
+    "correctAnswer": "C", 
   },
   {
     "id": 76,
@@ -113,7 +112,6 @@
     "optionC": "Falar rapidamente para terminar a conversa.",
     "optionD": "",
     "correctAnswer": "B",
-    "difficulty": "EASY"
   },
   {
     "id": 77,
@@ -125,7 +123,6 @@
     "optionC": "Evitar tocar diretamente na área queimada.",
     "optionD": "",
     "correctAnswer": "C",
-    "difficulty": "EASY"
   },
   {
     "id": 78,
@@ -137,7 +134,6 @@
     "optionC": "",
     "optionD": "",
     "correctAnswer": "A",
-    "difficulty": "EASY"
   },
   {
     "id": 79,
@@ -149,7 +145,6 @@
     "optionC": "",
     "optionD": "",
     "correctAnswer": "A",
-    "difficulty": "EASY"
   },
    {
     "id": 54,
@@ -590,7 +585,7 @@
     "optionB": "Não posso.",
     "optionC": "Não posso, porque a ultrapassagem faz-se pelo lado esquerdo.",
     "optionD": "",
-    "correctAnswer": ""
+    "correctAnswer": "C"
   },
 {
     "id": 113,
@@ -610,7 +605,7 @@
     "optionB": "Todas as respostas estão corretas.",
     "optionC": "Avaliar condições de segurança.",
     "optionD": "Fazer compressões torácicas.",
-    "correctAnswer": ""
+    "correctAnswer": "B"
   },
 {
     "id": 115,
@@ -620,7 +615,7 @@
     "optionB": "Não retirar em caso algum a vítima do veículo.",
     "optionC": "Não movimentar a vítima, exceto se existir perigo iminente de incêndio, explosão ou qualquer outra situação que ponha em risco a vida da vítima.",
     "optionD": "Ajudar a vítima a sair do veículo.",
-    "correctAnswer": ""
+    "correctAnswer": "C"
   },
 {
     "id": 116,
@@ -630,7 +625,7 @@
     "optionB": "Devo socorrer sempre, mesmo não tendo conhecimentos necessários.",
     "optionC": "Devo remover os feridos mesmo não tendo conhecimentos necessários.",
     "optionD": "Devo alertar as autoridades.",
-    "correctAnswer": ""
+    "correctAnswer": "D"
   },
 {
     "id": 117,
@@ -640,7 +635,7 @@
     "optionB": "Exaustão, chegada do apoio diferenciado, vítima recupera.",
     "optionC": "Qualquer pessoa me mande parar.",
     "optionD": "Entre alguém no espaço onde estou.",
-    "correctAnswer": ""
+    "correctAnswer": "B"
   },
 {
     "id": 118,
@@ -650,7 +645,7 @@
     "optionB": "Observação do diâmetro das pupilas, da coloração, temperatura e grau de humidade da pele.",
     "optionC": "Avaliação em primeiro lugar da existência de pulsação.",
     "optionD": "Avaliação em primeiro lugar do estado de consciência da vítima.",
-    "correctAnswer": ""
+    "correctAnswer": "D"
   },
 {
     "id": 119,
@@ -660,7 +655,7 @@
     "optionB": "Manter a calma.",
     "optionC": "Abandonar o local.",
     "optionD": "Efetuar uma rápida avaliação da vítima.",
-    "correctAnswer": ""
+    "correctAnswer": "C"
   },
 {
     "id": 120,
@@ -670,7 +665,7 @@
     "optionB": "Incentivar a tossir.",
     "optionC": "Manobras de SBV.",
     "optionD": "Colocar em PLS.",
-    "correctAnswer": ""
+    "correctAnswer": "D"
   },
 {
     "id": 121,
@@ -680,7 +675,7 @@
     "optionB": "5 pancadas nas costas.",
     "optionC": "Incentivar a tossir.",
     "optionD": "Ligar 112.",
-    "correctAnswer": ""
+    "correctAnswer": "C"
   },
 {
     "id": 122,
@@ -690,7 +685,7 @@
     "optionB": "Observar mais detalhadamente e em interrogá-la.",
     "optionC": "Avaliar se a vítima está consciente/inconsciente.",
     "optionD": "Avaliar somente a ventilação.",
-    "correctAnswer": ""
+    "correctAnswer": "C"
   },
 {
     "id": 123,
@@ -700,7 +695,7 @@
     "optionB": "Alternar 15 compressões com 5 insuflações.",
     "optionC": "Alternar 30 compressões com 2 insuflações.",
     "optionD": "Alternar 20 compressões com 2 insuflações.",
-    "correctAnswer": ""
+    "correctAnswer": "C"
   },
 {
     "id": 124,
@@ -710,7 +705,7 @@
     "optionB": "Ligar 112.",
     "optionC": "Avaliar as condições de consciência.",
     "optionD": "Avaliar as condições de segurança.",
-    "correctAnswer": ""
+    "correctAnswer": "A"
   },
 {
     "id": 125,
@@ -720,6 +715,6 @@
     "optionB": "Se a vítima estiver contaminada com tóxicos ou venenos, o socorrista deve usar proteções do corpo e da roupa (luvas e avental).",
     "optionC": "Deve ser fornecido álcool à vítima.",
     "optionD": "Nunca é necessário retirar as peças de vestuário da vítima.",
-    "correctAnswer": ""
+    "correctAnswer": "B"
   }
 ]
